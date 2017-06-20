@@ -1,0 +1,25 @@
+Use the Control Center to manage Local Managers by group. Defining and applying user roles, rules, and tasks across large numbers of Local Managers in physically separate locations, reduces the need to repeat the same operations on each unit and the risk of introducing the variations that can occur during manual operations.
+
+By grouping Local Managers, all members of any inventory group can be treated the same while each inventory group can be treated differently. Many of the tasks that the Control Center manages, such as assigning user roles and defining rules, can be performed at the root level or within any child group. All members of the inventory group and its child groups automatically inherit the newly created information.
+
+By default, the server provides the **Your Company** root group, which can be renamed, and the **Unassigned Group**, which is not editable. Neither of these can be deleted.
+
+New inventory groups can be created within the root group. These child groups may also be nested. Groups may be based on any criteria that help organize your deployment. Local Managers can be reassigned from one group to another at any time.
+
+In this example, the root group has been renamed XYZCo_TX and contains three inventory groups: Austin, Dallas, and Houston. The Austin inventory group contains two child groups of its own: bldg1 and bldg2.
+
+Local Managers have been added to each of the inventory groups (Austin, Dallas, and Houston). In the case of the Austin inventory group, each Local Manager has been added to one of the two child groups within Austin. One Local Manager, xyzsa01, has been assigned directly to the root group.
+
+The Unassigned group contains a Local Manager that has been configured to use this Control Center, but has not yet been assigned to an inventory group.
+ 
+![](http://uplogix.com/support/docs/img/cc-user-guide/image015.png)
+ 
+If a Local Manager is added to the bldg2 group, it inherits the Cisco 3925 default port settings from the Austin group. Similarly, if a child group is added to the bldg2 group, it also inherits the Cisco 3925 default port settings from its parent group.
+
+If a child group, such as bldg1, already has Cisco 3925 default port settings before the Cisco 3925 settings are created in the Austin group, the child group retains its original Cisco 3925 default port settings by default. You can choose to overwrite existing settings in child groups.
+
+Local Managers within the Unassigned group do not inherit any settings; they are outside the inventory's root group.
+
+>If default settings are deleted from a group, child groups retain the settings.
+
+<!-- 5.2 -->
