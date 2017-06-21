@@ -88,10 +88,11 @@ iridiumNonResponsive | iridiumSignalQualityAt0 | iridiumSignalQualityAt1 | iridi
 exit
 exit 
 ```
- 
 
 Use the **config monitor modem** command to activate this ruleset on the modem resource.
 
 ```
 [admin@UplogixLM (modem)]# config monitor modem iridiumNative
 ```
+
+Further reading: [LEO-I Kit User Guide](/docs/leo-kit-user-guide/)
