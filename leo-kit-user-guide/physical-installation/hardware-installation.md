@@ -67,7 +67,11 @@ If you will be using the included ADU Mounting Kit, attach the mounting brackets
 
 On some models, the mounting brackets will already be attached to the ADU.
 
-### 3. Replace lid for transport to install location
+### 3. Install the remote antenna (OPTIONAL)
+
+To install the optional remote antenna kit, see [Remote Antenna Kit](https://uplogix.com/docs/leo-kit-user-guide/physical-installation/remote-antenna-kit).
+
+### 4. Replace lid for transport to install location
 
 Secure at least 1 of the corner screws before moving the ADU to its final location.
 
