@@ -60,7 +60,7 @@ Maximum virtual ports supported: 16
 
 Specify **-noroute** if the virtual port connection should route over an out-of-band connection when it is available.
 
-<div class='caution' /> The **-noroute** option may also be necessary if the target device is on the same connected network as the Local Manager. If pings to a device succeed at first but fail after adding the port *and* a terminal session fails, try modifying the port configuration to include **-noroute**.</div>
+<div class='warning' /> The **-noroute** option may also be necessary if the target device is on the same connected network as the Local Manager. If pings to a device succeed at first but fail after adding the port *and* a terminal session fails, try modifying the port configuration to include **-noroute**.</div>
 
 ```
 Examples:
