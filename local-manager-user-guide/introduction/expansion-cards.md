@@ -18,6 +18,8 @@ The 16 Port Serial Card is used with 8-connector fan-out cables that have a v.68
 
 The fan-out cables come with a set of stickers for labeling. Wrap the stickers on the ferrite bead near the RJ45 connectors as shown above. The stickers allow you to label the cables with both slot and port numbers for easier identification. 
 
+**IMPORTANT:** The numbering of the fan-out cables may not be in order from left to right. **ONLY** rely on the numbers on the labels at the end of the cables.  
+
 # Sample 8 Port Dedicated Ethernet Card
 
 ![](http://uplogix.com/support/docs/img/installing-a-local-manager/image021.png)
