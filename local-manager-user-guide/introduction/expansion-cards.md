@@ -4,7 +4,7 @@ Expansion cards (also known as *option cards*) add serial and Ethernet ports to 
 
 # Sample 8 Port Serial Card
 
-![](http://uplogix.com/support/docs/img/installing-a-local-manager/image019.png)
+![8 Port Card](http://uplogix.com/support/docs/img/installing-a-local-manager/image019.png)
 
 # Sample 16 Port Serial Card
 
