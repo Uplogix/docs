@@ -4,7 +4,7 @@ Expansion cards (also known as *option cards*) add serial and Ethernet ports to 
 
 # Sample 8 Port Serial Card
 
-![](http://uplogix.com/support/docs/img/installing-a-local-manager/image019.png)
+![8 Port Card](http://uplogix.com/support/docs/img/installing-a-local-manager/image019.png)
 
 # Sample 16 Port Serial Card
 
@@ -17,6 +17,8 @@ The 16 Port Serial Card is used with 8-connector fan-out cables that have a v.68
 ![](http://uplogix.com/support/docs/img/installing-a-local-manager/fan-out-cable_with-stickers.png)
 
 The fan-out cables come with a set of stickers for labeling. Wrap the stickers on the ferrite bead near the RJ45 connectors as shown above. The stickers allow you to label the cables with both slot and port numbers for easier identification. 
+
+**IMPORTANT:** The numbering of the fan-out cables may not be in order from left to right. **ONLY** rely on the numbers on the labels at the end of the cables.  
 
 # Sample 8 Port Dedicated Ethernet Card
 

@@ -33,3 +33,11 @@ Connect the LMR-400 cable to the external Iridium antenna.
 ![Attach Antenna](https://uplogix.com/support/docs/img/hawk/rak_attach_antenna.png)
 
 Mount the antenna in the desired location.
+
+**IMPORTANT**: Make sure to match up the correct holes when screwing into the antenna mount. The below pictures show which holes to use.  
+
+Mount the antenna using 4 each # 6-32 x ¼” Stainless Steel screws (supplied). 
+
+![Mounting Screw Holes](https://uplogix.com/support/docs/img/hawk/Leo-Screw-Holes-01.jpg)
+
+![Mounting Screw Holes](https://uplogix.com/support/docs/img/hawk/Leo-Screw-Holes-02.jpg)
