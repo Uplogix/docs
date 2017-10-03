@@ -59,7 +59,7 @@ Caller ID can be used to accept (**allow**) or refuse (**deny**) calls. Caller I
 The following example shows a basic configuration:
 
 ```
-[admin@xyzcoAus01 (modem)]# config answer
+[admin@UplogixLM (modem)]# config answer
 [config answer]# enable
 [config answer]# init "" ATZ
 [config answer]# allow all
@@ -68,7 +68,7 @@ The following example shows a basic configuration:
 This example shows a more complex configuration:
 
 ```
-[admin@xyzcoAus01 (modem)]# config answer
+[admin@UplogixLM (modem)]# config answer
 [config answer]# enable
 [config answer]# rings 5
 [config answer]# allow 2128675309

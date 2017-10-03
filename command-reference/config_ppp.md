@@ -19,7 +19,7 @@ config ppp
 # Usage 
 
 ```
-[admin@xyzcoAus01 (modem)]# config ppp
+[admin@UplogixLM (modem)]# config ppp
 --- Existing Values ---
 Phone Number:
 User Name:

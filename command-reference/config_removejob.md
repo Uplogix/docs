@@ -25,7 +25,7 @@ The -all option removes all jobs and monitors on the device.
 Use show schedules or show monitors to determine the job number before removing it.
 
 ```
-[admin@xyzcoAus01 (port1/1)]# config removejob 14
+[admin@UplogixLM (port1/1)]# config removejob 14
 Job 14 has been removed from the scheduler queue.
 ```
 

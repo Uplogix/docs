@@ -23,7 +23,7 @@ This setting may alter the network deviceâ€™s configuration, based on the userâ€
 This setting does not remove current syslog configuration from network devices.
 
 ```
-[admin@xyzcoAus01 (port1/1)]# config device logging 
+[admin@UplogixLM (port1/1)]# config device logging 
 --- Existing  Values ---
 Set the console to use synchronous logging: yes
 Set the console to use logging buffered: yes

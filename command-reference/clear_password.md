@@ -19,7 +19,7 @@ clear password
 # Usage 
 
 ```
-[admin@xyzcoAus01 (port1/1)]# clear password
+[admin@UplogixLM (port1/1)]# clear password
 Password cleared
 ```
 

@@ -21,7 +21,7 @@ clear service-module <“interface name”>
 # Usage 
 
 ```
-[admin@xyzcoAus01 (port1/1)]# clear service-module Serial0/1
+[admin@UplogixLM (port1/1)]# clear service-module Serial0/1
 ```
 
 # In the Uplogix web interface

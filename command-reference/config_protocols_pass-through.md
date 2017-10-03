@@ -33,7 +33,7 @@ Binary option allows all ASCII characters so “~” commands are not available
 This change takes effect when the Uplogix system reboots.
 
 ```
-[admin@xyzcoAus01 (port1/1)]# config protocols pass-through enable ssh
+[admin@UplogixLM (port1/1)]# config protocols pass-through enable ssh
 ```
 
 Pass-through port will be 2001.

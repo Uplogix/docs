@@ -23,7 +23,7 @@ config authentication
 # Usage 
 
 ```
-[admin@xyzcoAus01 (powercontrol)]# config auth
+[admin@UplogixLM (powercontrol)]# config auth
 --- Existing  Values ---
 
 console user: tasman

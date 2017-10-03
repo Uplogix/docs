@@ -51,15 +51,15 @@ Data collection takes approximately 3 seconds per interface, so the maximum numb
 Incorrect interfaces will respond with "% Invalid input detected at '^' marker." and/or "Bad argument encountered" and the monitor will remain unscheduled.
 
 ```
-[admin@xyzcoAus01 (port1/1)]# config monitor interface Ethernet0/0 LinkAggrigation,defaultEthernetRule :45
+[admin@UplogixLM (port1/1)]# config monitor interface Ethernet0/0 LinkAggrigation,defaultEthernetRule :45
 Job was scheduled 14: [Interval: 00:00:45 Mask: * * * * *] showInterface Ethernet0/0
 ```
 
 To monitor whether the embedded modem has a good connection, use the built-in modemLineDisconnected rule:
 
 ```
-[admin@xyzcoAus01 ]# modem
-[admin@xyzcoAus01 (modem)]# config monitors modem modemLineDisconnected :30
+[admin@UplogixLM ]# modem
+[admin@UplogixLM (modem)]# config monitors modem modemLineDisconnected :30
 Job was scheduled 0: [Interval: 00:00:30 Mask: * * * * *] rulesMonitor modem embedded modemLineDisconnected 30 
 ```
 

@@ -53,10 +53,10 @@ Examples:
 
 
 ```
-[admin@xyzcoAus01 (port1/1)]# config properties
+[admin@UplogixLM (port1/1)]# config properties
 [config properties]# installDate 01/16/07
 [config properties]# exit
-[admin@xyzcoAus01 (port1/1)]#
+[admin@UplogixLM (port1/1)]#
 ```
 
 # In the Uplogix web interface

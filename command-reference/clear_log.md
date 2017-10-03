@@ -19,7 +19,7 @@ clear log
 # Usage 
 
 ~~~
-[admin@xyzcoAus01 (port1/1)]# clear log
+[admin@UplogixLM (port1/1)]# clear log
 Log cleared
 ~~~
 

@@ -147,7 +147,7 @@ Do you want to commit these changes? (y/n):
 # Usage 
 
 ```
-[admin@xyzcoAus01 (port1/1)]# config init
+[admin@UplogixLM (port1/1)]# config init
 --- Enter New Values ---
 description: []: tasman6300
 make: [native]: tasman

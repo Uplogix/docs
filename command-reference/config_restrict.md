@@ -60,13 +60,13 @@ This example restricts cycling power to no more than every 3 hours. The -i inter
 
 
 ```
-[admin@xyzcoAus01]# config restrict powerCycle –i 10800
+[admin@UplogixLM]# config restrict powerCycle –i 10800
 ```
 
 This example restricts rebooting port 1/4 except on weekends:
 
 ```
-[admin@xyzcoAus01]# config restrict reboot port1/4 -m "* * * * 0,6"
+[admin@UplogixLM]# config restrict reboot port1/4 -m "* * * * 0,6"
 ```
 
 # History 

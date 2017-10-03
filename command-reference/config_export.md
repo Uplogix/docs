@@ -19,7 +19,7 @@ config export <scp | ftp> <“user@ipAddress:filename”>
 # Usage 
 
 ```
-[admin@xyzcoAus01]# config export FTP kjones@ 203.0.113.2:xyzcoAus01.xml
+[admin@UplogixLM]# config export FTP kjones@ 203.0.113.2:xyzcoAus01.xml
 ```
 
 # History 

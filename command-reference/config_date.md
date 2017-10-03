@@ -19,7 +19,7 @@ config date
 To maintain accurate timestamps across time zones, use the current UTC time for this setting and rely on the user’s time zone setting for offset. If NTP is configured - for example, if the Local Manager is managed by an Uplogix Control Center, the current configuration shows this.
 
 ```
-[admin@xyzcoAus01]# config date
+[admin@UplogixLM]# config date
 *** NTP is configured. ***
 Displayed time is 01/16/2010 22:57:41 UTC
 Local Manager time is     01/16/2010 22:57:41 UTC

@@ -19,7 +19,7 @@ config outlets
 # Usage 
 
 ```
-[admin@xyzcoAus01 (powercontrol)]# config outlets
+[admin@UplogixLM (powercontrol)]# config outlets
 --- Existing  Values ---
 Change these? (y/n) [n]: y
 --- Enter New Values ---
@@ -31,7 +31,7 @@ Outlet:4
 Interface:port1/2
 Would you like to add a new mapping? (y/n) [n]: n
 Do you want to commit these changes? (y/n): y
-[admin@xyzcoAus01 (powercontrol)]# show outlets
+[admin@UplogixLM (powercontrol)]# show outlets
 Outlet 1 goes to interface port1/1
 Outlet 4 goes to interface port1/2
 ```

@@ -51,10 +51,10 @@ Account names must be unique. For example, if there is a user account called sys
 # Usage 
 
 ```
-[admin@xyzcoAus01]# config group no southwestOps
+[admin@UplogixLM]# config group no southwestOps
 Group southwestOps deleted from Local Manager
 
-[admin@xyzcoAus01]# config group auditors
+[admin@UplogixLM]# config group auditors
 Group auditors does not exist. Create (y/n): y
 [config group auditors]# description auditors
 [config group auditors]# email auditors@xyzco.us.com

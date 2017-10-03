@@ -18,7 +18,7 @@ clear counters
 # Usage 
 
 ~~~
-[admin@xyzcoAus01 (port1/1)]# clear counters
+[admin@UplogixLM (port1/1)]# clear counters
 Interface counters successfully cleared
 ~~~
 

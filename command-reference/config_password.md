@@ -20,12 +20,12 @@ config password [“username”]
 If you use the command **config password** without including a username, this allows you to change your own password. The **config password “username”** command allows you to change the password for the specified user account without supplying the current password. You must have the appropriate privileges to change another user's password.
 
 ```
-[admin@xyzcoAus01]# config password
+[admin@UplogixLM]# config password
 Old Password:********
 New Password [********]: ********
 Confirm Password: ********
 Password changed.
-[admin@xyzcoAus01]# config password tmcmillan
+[admin@UplogixLM]# config password tmcmillan
 New Password: ********
 Confirm Password: ********
 Password changed.

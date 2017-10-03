@@ -19,7 +19,7 @@ clear xbrowser
 # Usage 
 
 ```
-[admin@xyzcoAus01 (port1/3)]# clear xbrowser
+[admin@UplogixLM (port1/3)]# clear xbrowser
 would you like to remove all custom settings and revert the browser? (y/n) [y]: 
 ```
 

@@ -21,7 +21,7 @@ config environment
 Exceeding temperature or humidity thresholds (if applicable) will trigger alarms. If environmental data is unavailable - for example, if the sensor has not been connected - the corresponding alarm(s) will not be triggered.
 
 ```
-[admin@xyzcoAus01]# config environment
+[admin@UplogixLM]# config environment
 --- Existing  Values ---
 Humidity Threshold: 85.0
 Temperature Threshold: 95.0

@@ -23,7 +23,7 @@ config log rule <enable | disable>
 # Usage 
 
 ```
-[admin@xyzcoAus01 (port1/1)]# config log rule enable
+[admin@UplogixLM (port1/1)]# config log rule enable
 ```
 
 # History 

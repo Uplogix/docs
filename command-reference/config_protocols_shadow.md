@@ -21,7 +21,7 @@ config protocols shadow
 # Usage 
 
 ```
-[admin@xyzcoAus01 (port1/1)]# config protocols shadow
+[admin@UplogixLM (port1/1)]# config protocols shadow
 Enable: false
 Using Local Manager management IP: 198.51.238.102
 Port: 1024

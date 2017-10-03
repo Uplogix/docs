@@ -29,7 +29,7 @@ If no hostname is available, first word of the description will be used as the d
 > **Note**: Some symbol characters, such as the ~ and \ characters, may not display correctly on the front panel display.
 
 ```
-[admin@xyzcoAus01 (port1/1)]# config info
+[admin@UplogixLM (port1/1)]# config info
 Hostname:
 Description: tasman6300
 Make: tasman

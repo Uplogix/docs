@@ -19,7 +19,7 @@ config import usb  [filename]
 # Usage 
 
 ```
-[admin@xyzcoAus01]# config import FTP kjones@ 192.0.2.33:xyzcoAus01.xml
+[admin@UplogixLM]# config import FTP kjones@ 192.0.2.33:xyzcoAus01.xml
 ```
 
 This command imports the XML document produced with the **config export** command.
