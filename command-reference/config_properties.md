@@ -1,3 +1,5 @@
+<!-- 5.4 -->
+
 Opens an editor that allows you to set name/value pairs for a device on one of the system’s ports. These properties can be used by the Uplogix Control Center to generate detailed reports. To set properties for the Uplogix Local Manager, use the config system properties command.
 
 # Command availability 

@@ -1,3 +1,5 @@
+<!-- 5.4 -->
+
 Interactive command to associate power outlets with the ports that they power.
 
 # Command availability 

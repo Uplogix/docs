@@ -1,3 +1,5 @@
+<!-- 5.4 -->
+
 Restricts actions automatically called by rules to predefined thresholds. Each action can be restricted by port, minimum interval or an eligible time window. For example, a reboot may be called by a rule but be cancelled because a reboot has occurred within the past 3 hours. The reboot will not execute outside the cron-time mask, if one has been set.
 
 # Command availability 

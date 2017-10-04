@@ -1,3 +1,5 @@
+<!-- 5.4 -->
+
 Interactive command that steps you through the changes needed to update or set the credentials used to communicate with a network device. To set up authentication for the Uplogix Local Manager, use the config system authentication command.
 
 # Command availability 
@@ -55,7 +57,7 @@ Saving credentials.
 
 **Schedule > Scheduled Tasks** - all devices that match the selected filter
 
-**Inventory > Local Manager page > port detail > schedule** button - specific to this device
+**Inventory > Local Manager page > port detail > schedule button** - specific to this device
 
 # History 
 

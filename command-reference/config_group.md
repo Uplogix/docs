@@ -1,3 +1,5 @@
+<!-- 5.4 -->
+
 Opens an editor that allows you to create and delete group accounts, add and remove users to group accounts, and alter authority for group accounts.
 
 > **Note:** This command cannot create new groups if the Local Manager is managed by a Uplogix Control Center. In this case, you must use the server’s web interface to configure group accounts. 

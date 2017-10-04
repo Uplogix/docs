@@ -1,3 +1,5 @@
+<!-- 5.4 -->
+
 Interactive command for changing account passwords. This allows an administrator to reset a user’s password without knowing the previous password. If a Local Manager is managed by a UCC, this functionality is disabled for all but the admin user.
 
 # Command availability 

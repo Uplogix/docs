@@ -1,3 +1,5 @@
+<!-- 5.4 -->
+
 Interactive command to set the alarm threshold for ambient temperature (32-port Uplogix Local Managers) or for temperature and humidity (older 4-port Uplogix Local Managers). This command is not available for the Uplogix 430, 500, or  5000 Local Manager.
 
 # Command availability 

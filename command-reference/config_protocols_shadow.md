@@ -1,3 +1,5 @@
+<!-- 5.4 -->
+
 Echoes all interaction with a device via its console port to a network port – for example, to allow a GPS device to stream location data to a listening application.
 
 # Command availability 

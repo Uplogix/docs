@@ -1,3 +1,5 @@
+<!-- 5.4 -->
+
 Interactive command that steps you through the initial configuration necessary for the Uplogix Local Manager to communicate with the network device. If you are configuring a server, you may also wish to configure its service processor using the config service-processor command.
 
 # Command availability 
@@ -119,7 +121,6 @@ Would you like to add a new mapping? (y/n) [n]:
 Typical setting prompts for a port device that you have specified as a Cisco product using CatOS:
 
 ```
---- Enter New Values ---
 description: []: 
 make: [native]: cisco
 model: []:
@@ -185,7 +186,6 @@ Assimilating the device will set buffered logging on the console.
 Proceed? (y/n): y
 Retrieving running-config from device via console...
 Done.
-- Output removed -
 ```
 
 # History 

@@ -1,3 +1,5 @@
+<!-- 5.4 -->
+
 Imports an XML representation of the Uplogix Local Manager’s configuration from an external host or USB connected drive. This merges with the configuration currently stored on the Local Manager. Some elements cannot be imported and are ignored. Importing of users is ignored when the Local Manager is managed by a UCC.
 
 # Command availability 

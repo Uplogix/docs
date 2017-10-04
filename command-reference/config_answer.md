@@ -1,3 +1,5 @@
+<!-- 5.4 -->
+
 Opens an editor to configure modem behavior. The terminal type must be ANSI and operates like the Uplogix Local Manager’s console port. The modem’s default configuration is for North America.
 
 # Command availability
@@ -93,7 +95,9 @@ This example shows a more complex configuration:
 # History 
 
 2.5 – This command was introduced. It replaces config Local Manager modem.
+
 3.3 - Subcommands domain and number were added to support Iridium modem.
+
 4.1 – Log Rings command added to record inbound dial attempts.
 
 # Related commands 

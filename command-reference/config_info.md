@@ -1,3 +1,5 @@
+<!-- 5.4 -->
+
 Interactive command that steps you through the changes needed to update the Uplogix Local Manager’s settings used to communicate with the network device. 
 
 # Command availability

@@ -1,3 +1,5 @@
+<!-- 5.4 -->
+
 Enables direct SSH and telnet connection to a device’s console using TCP ports. Once configured, the user or an automated script can connect to the device’s console port by SSH shell connection to a specific TCP port with all the rollback, session logging, and authority protection available through the LMS command line.
 
 Pre-authenticated pass-through provides telnet based pre-authentication to a specific ip address tied to the permissions of a specific user. 

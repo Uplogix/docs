@@ -1,3 +1,5 @@
+<!-- 5.4 -->
+
 Interactive command to specify how logging is handled for the network device.
 
 # Command availability
