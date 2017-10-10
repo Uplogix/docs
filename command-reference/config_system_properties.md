@@ -39,7 +39,7 @@ Properties are arbitrary pairs of names and values. Examples:
 
 # In the Uplogix web interface
 
-**Inventory > expanded system page > Status tab > Properties** - specific to this system
+**Inventory > Local Manager page > System > Properties** - specific to this system
 
 # History 
 
@@ -47,8 +47,6 @@ Properties are arbitrary pairs of names and values. Examples:
 
 # Related commands 
 
-**show system properties**
-
-**config properties**
-
-**show properties**
+- **show system properties**
+- **config properties**
+- **show properties**

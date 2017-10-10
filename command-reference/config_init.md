@@ -1,6 +1,6 @@
 <!-- 5.4 -->
 
-Interactive command that steps you through the initial configuration necessary for the Uplogix Local Manager to communicate with the network device. If you are configuring a server, you may also wish to configure its service processor using the config service-processor command.
+Interactive command that steps you through the initial configuration necessary for the Uplogix Local Manager to communicate with the network device. If you are configuring a server, you may also wish to configure its service processor using the **config service-processor** command.
 
 # Command availability 
 
@@ -36,7 +36,7 @@ Ethernet-dependent settings are not available from the Uplogix 430 Local Manager
 
 **model** (optional) – Automatically discovered during assimilation of supported devices.
 
-**os** (required in most cases) – Type ? to see a list of supported OS types. This list is filtered based on the make.
+**os** (required in most cases) – Type **?** to see a list of supported OS types. This list is filtered based on the make.
 
 **os version** (optional) – Automatically discovered during assimilation of supported devices.
 
@@ -82,7 +82,7 @@ Ethernet-dependent settings are not available from the Uplogix 430 Local Manager
 
 **serial stop bit** (optional) – Defaults to 1.
 
-**use null modem?** (optional) – If the Uplogix Local Manager cannot communicate with the device, try changing this value.
+**serial flow control** (optional) - Defaults to none.
 
 The settings that are presented depend on the resource and the specific device. 
 
@@ -114,35 +114,33 @@ serial data bit [8]:
 serial parity [none]:
 serial stop bit [1]:
 serial flow control [none]:
-use null modem (rolled cable to device)? (y/n) [n]:
 Would you like to add a new mapping? (y/n) [n]:
 ```
 
 Typical setting prompts for a port device that you have specified as a Cisco product using CatOS:
 
 ```
-description: []: 
-make: [native]: cisco
-model: []:
-os: []: ios
-os version: []:
-management IP: []:
-configure dedicated ethernet port? (y/n) [n]: y
-Use DHCP? (y/n) [n]: y
-speed/duplex: [auto]:
-console username: []:Cisco 
-console password []: *****
+description:
+make [native]: cisco
+model:
+os: ios
+os version:
+management IP:
+console username: cisco
+console password: *****
 confirm password: *****
-enable username: []:
-enable password []:
-Warning: Speed below 9600 baud may impact performance.
-serial bit rate [9600]:
-serial data bit [8]:
-serial parity [none]:
-serial stop bit [1]:
-serial flow control [none]:
-use null modem (rolled cable to device)? (y/n) [n]:
-Do you want to commit these changes? (y/n):
+enable username:
+enable password:
+secondary console username:
+secondary console password:
+secondary enable username:
+secondary enable password:
+Serial Bit Rate [9600]:
+Serial Data Bit [8]:
+Serial Parity [none]:
+Serial Stop Bit [1]:
+Serial Flow Control [none]:
+
 ```
 
 # Usage 
@@ -150,26 +148,22 @@ Do you want to commit these changes? (y/n):
 ```
 [admin@UplogixLM (port1/1)]# config init
 --- Enter New Values ---
-description: []: tasman6300
-make: [native]: tasman
-model: []: 6300
-os: []: tios
-os version: []: 
-management IP: []: 
-configure dedicated ethernet port? (y/n) [n]: y
-Use DHCP? (y/n) [n]: y
-speed/duplex: [auto]:
-console username: []: tasman
-console password []: *********
-confirm password: *********
-enable username: []: 
-enable password []: 
-serial bit rate [9600]: 
-serial data bit [8]: 
-serial parity [none]: 
-serial stop bit [1]: 
-serial flow control [none]: 
-use null modem (rolled cable to device)? (y/n) [n]: 
+description: tasman6300
+make [native]: tasman
+model: 6300
+os: tios
+os version:
+management IP:
+console username: tasman
+console password: ********
+confirm password: ********
+enable username:
+enable password:
+Serial Bit Rate [9600]:
+Serial Data Bit [8]:
+Serial Parity [none]:
+Serial Stop Bit [1]:
+Serial Flow Control [none]:
 Do you want to commit these changes? (y/n): y
 Testing login will take a few moments...
 Login successful; credentials are valid.
@@ -200,10 +194,9 @@ Done.
 
 # Related commands 
 
-**config info**
+- **config info**
+- **config authentication**
+- **config serial**
+- **config outlets**
 
-**config authentication**
 
-**config serial**
-
-**config outlets**

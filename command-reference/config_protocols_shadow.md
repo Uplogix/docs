@@ -36,6 +36,5 @@ Change these? (y/n) [n]:
 
 # Related commands 
 
-**terminal**
-
-**show protocols shadow**
+- **terminal**
+- **show protocols shadow**

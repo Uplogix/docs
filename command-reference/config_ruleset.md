@@ -48,9 +48,9 @@ Rule 1 will be evaluated, and if it does not match, rule 2 and rule 3 will both 
 
 # In the Uplogix web interface
 
-**Inventory > group page > rule sets button** - specific to this inventory group
+**Inventory > group page > Automation > Rule Sets** - specific to this inventory group
 
-**Inventory > expanded system page > Status tab > Rule Sets** - specific to this system
+**Inventory > Local Manager page > Automation > Rule Sets** - specific to this system
 
 # History 
 
@@ -58,8 +58,6 @@ Rule 1 will be evaluated, and if it does not match, rule 2 and rule 3 will both 
 
 # Related commands 
 
-**config rule**
+- **config rule**
+- **config monitors** 
 
-**config monitors** 
-
-<!-- 5.4 -->

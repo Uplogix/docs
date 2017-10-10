@@ -1,6 +1,6 @@
 <!-- 5.4 -->
 
-Resets the device’s telco interface and forces renegotiation. Rules can be defined to automate this operation using the clearServiceModule action.
+Resets the device’s telco interface and forces renegotiation. Rules can be defined to automate this operation using the *clearServiceModule *action.
 
 # Command availability 
 

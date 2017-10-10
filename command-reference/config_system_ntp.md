@@ -40,9 +40,9 @@ Do you want to commit these changes? (y/n): y
 
 # In the Uplogix web interface
 
-**Inventory > group page > Local Manager configuration button > NTP** - specific to this inventory group
+**Inventory > group page > Network > NTP** - specific to this inventory group
 
-**Inventory > expanded system page > Configuration tab > NTP** - specific to this 
+**Inventory > Local Manager page > Network > NTP** - specific to this 
 system
 
 # History 
@@ -51,8 +51,6 @@ system
 
 # Related commands 
 
-**show system ntp**
-
-**config system management**
-
-**config date**
+- **show system ntp**
+- **config system management**
+- **config date**

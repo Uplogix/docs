@@ -77,6 +77,5 @@ This example restricts rebooting port 1/4 except on weekends:
 
 # Related commands 
 
-**config rule**
-
-**show restrict**
+- **config rule**
+- **show restrict**

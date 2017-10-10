@@ -55,7 +55,7 @@ payload harvardfemale
 
 # In the Uplogix web interface
 
-**Inventory > expanded system page > Configuration tab > IPT** - specific to this system
+**Inventory > Local Manager page > Automation > IPT** - specific to this system
 
 # History 
 
@@ -65,6 +65,5 @@ payload harvardfemale
 
 # Related commands 
 
-**config slv ipt**
-
-**show system ipt**
+- **config slv ipt**
+- **show system ipt**

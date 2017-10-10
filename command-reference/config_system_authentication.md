@@ -1,6 +1,6 @@
 <!-- 5.4 -->
 
-Interactive command to delegate authentication to external TACACS or RADIUS hosts, or to modify password standards and account lockout for local authentication. To set up authentication for devices connected to the Uplogix Local Manager, use the config authentication command.
+Interactive command to delegate authentication to external TACACS or RADIUS hosts, or to modify password standards and account lockout for local authentication. To set up authentication for devices connected to the Uplogix Local Manager, use the **config authentication** command.
 
 # Command availability 
 
@@ -80,9 +80,9 @@ Do you want to commit these changes? (y/n):
 
 **Administration > AAA Settings **- applies to the entire inventory
 
-**Inventory > group page > Local Manager configuration button > Authentication** - specific to this inventory group
+**Inventory > group page > Security > Authentication** - specific to this inventory group
 
-**Inventory > expanded system page > Configuration tab > Authentication** - specific to this system
+**Inventory > Local Manager page > Security > Authentication** - specific to this system
 
 # History 
 
@@ -92,9 +92,7 @@ Do you want to commit these changes? (y/n):
 
 # Related commands 
 
-**show system authentication**
-
-**config authentication**
-
-**show authentication**
+- **show system authentication**
+- **config authentication**
+- **show authentication**
  

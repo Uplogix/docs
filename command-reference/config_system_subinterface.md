@@ -37,7 +37,7 @@ Warning: Remote connections may be lost if you commit changes.
 
 # In the Uplogix web interface
 
-**Inventory > expanded system page > Configuration tab > Subinterface** - specific to this system
+**Inventory > Local Manager page > Network > Subinterfaces** - specific to this system
 
 # History 
 
@@ -45,6 +45,5 @@ Warning: Remote connections may be lost if you commit changes.
 
 #Related commands 
 
-**show system subinterface**
-
-**show system route**
+- **show system subinterface**
+- **show system route**

@@ -40,9 +40,9 @@ Type 'exit' on a line by itself to exit
 
 # In the Uplogix web interface
 
-**Inventory > group page > Local Manager configuration button > Banners** - specific to this inventory group
+**Inventory > group page > System > Banners** - specific to this inventory group
 
-**Inventory > expanded system page > Configuration tab > Banners** - specific to this system
+**Inventory > Local Manager page > System > Banners** - specific to this system
 
 # History 
 
@@ -50,4 +50,4 @@ Type 'exit' on a line by itself to exit
 
 # Related commands 
 
-**show system banner**
+- **show system banner**

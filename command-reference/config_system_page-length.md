@@ -31,6 +31,5 @@ Page length preference (2 or more lines or auto): 30
 
 # Related commands 
 
-**page-length**
-
-**show system page-length**
+- **page-length**
+- **show system page-length**

@@ -52,4 +52,4 @@ Proceed? (y/n) [n]:y
 
 # Related commands 
 
-**show system fips**
+- **show system fips**

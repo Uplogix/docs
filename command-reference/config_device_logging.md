@@ -47,9 +47,9 @@ Syslog facility: []: local1
 
 # In the Uplogix web interface
 
-Console log and buffer settings: **Inventory > group page > default port settings button** - specific to this inventory group
+Console log and buffer settings: **Inventory > group page > System > Defaul Port Settings button** - specific to this inventory group
 
-Syslog settings: **Inventory > Local Manager page > port detail > Syslog** - specific to this device
+Syslog settings: **Inventory > Local Manager page > Port Settings > Logging** - specific to this device
 
 # History 
 
@@ -57,6 +57,5 @@ Syslog settings: **Inventory > Local Manager page > port detail > Syslog** - spe
 
 # Related commands 
 
-**assimilate**
-
-**show device logging**
+- **assimilate**
+- **show device logging**

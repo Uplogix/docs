@@ -52,16 +52,14 @@ Do you want to commit these changes? (y/n): y
 
 # In the Uplogix web interface
 
-**Inventory > expanded system page> Configuration tab > Pulse** - specific to this system
+**Inventory > Local Manager page > Out-of-Band > Pulse** - specific to this system
 
 # History 
 
 3.4 - This command was introduced 
 
-#Related commands 
+# Related commands 
 
-**show system pulse**
-
-**config system management**
-
-**config ppp**
+- **show system pulse**
+- **config system management**
+- **config ppp**

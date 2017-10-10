@@ -1,6 +1,6 @@
 <!-- 5.4 -->
 
-Logs on a device increase over time and can mask potential problems if left to accumulate. The clear log command clears all logs on the device. Rules can be defined to automate this operation using the clearLog action.
+Logs on a device increase over time and can mask potential problems if left to accumulate. The **clear log** command clears all logs on the device. Rules can be defined to automate this operation using the clearLog action.
 
 # Command availability 
 
@@ -31,4 +31,4 @@ Log cleared
 
 # Related commands 
 
-**clear counters**
+- **clear counters**

@@ -30,7 +30,7 @@ config answer
 
 For example, to enable the modem to be used in Belgium, add the AT+GCI=fd variable to the init string.
 
-To remove a setting, place the no modifier before it.
+To remove a setting, place the **no** modifier before it.
 
 **[no] allow <“phone number” | all>** – allow access from a specific calling phone number or from all numbers. The “phone number” string may be all or part of a phone number.
 
@@ -88,18 +88,18 @@ This example shows a more complex configuration:
  
 # In the Uplogix web interface
 
-**Inventory > group page > Local Manager configuration button > Modem** - specific to this inventory group
+**Inventory > group page > Out-of-Band > Modem** - specific to this inventory group
 
-**Inventory > expanded Local Manager page > Configuration tab > Modem** - specific to this modem
+**Inventory > Local Manager page > Out-of-Band > Modem** - specific to this modem
 
 # History 
 
-2.5 – This command was introduced. It replaces config Local Manager modem.
+2.5 - This command was introduced. It replaces config Local Manager modem.
 
 3.3 - Subcommands domain and number were added to support Iridium modem.
 
-4.1 – Log Rings command added to record inbound dial attempts.
+4.1 - Log Rings command added to record inbound dial attempts.
 
 # Related commands 
  
-**show answer**
+- **show answer**

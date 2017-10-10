@@ -6,7 +6,7 @@ Enables or disables the keypad on the front panel of an Uplogix Local Manager. T
 
 CLI resource: system
 
-Uplogix system: 5000, 3200, 400
+Uplogix system: 5000, 3200
 
 LMS offerings: All
 
@@ -27,9 +27,9 @@ Keypad Configuration: enabled
 
 # In the Uplogix web interface
 
-**Inventory > group page > Local Manager configuration button > Keypa**d - specific to this inventory group
+**Inventory > group page > System > LCD** - specific to this inventory group
 
-**Inventory > expanded system page > Configuration tab > Keypad** - specific to this system
+**Inventory > Local Manager page > System > LCD** - specific to this system
 
 # History 
 
@@ -37,4 +37,4 @@ Keypad Configuration: enabled
 
 # Related commands 
 
-**show system keypad**
+- **show system keypad**

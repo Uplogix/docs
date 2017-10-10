@@ -1,6 +1,6 @@
 <!-- 5.4 -->
 
-Clears the password on a device. Rules can be defined to automate this operation using the clearPassword action.
+Clears the password on a device. Rules can be defined to automate this operation using the *clearPassword* action.
 
 # Command availability 
 
@@ -31,4 +31,4 @@ Password cleared
 
 # Related commands 
 
-**config authentication**
+* **config authentication**

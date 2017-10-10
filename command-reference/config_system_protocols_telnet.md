@@ -27,9 +27,9 @@ Telnet will be enabled after the next Local Manager restart.
 
 # In the Uplogix web interface
 
-**Inventory > group page > Local Manager configuration button > Protocols** - specific to this inventory group
+**Inventory > group page > Network > Protocols > Protocols** - specific to this inventory group
 
-**Inventory > expanded system page > Configuration tab > Protocols** - specific to this system
+**Inventory > Local Manager page > Network > Protocols > Protocols** - specific to this system
 
 # History 
 
@@ -37,4 +37,4 @@ Telnet will be enabled after the next Local Manager restart.
 
 # Related commands 
 
-**show system protocols**
+- **show system protocols**

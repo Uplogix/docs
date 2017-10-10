@@ -29,7 +29,7 @@ config slv http [no] <“testname”>
 
 # In the Uplogix web interface
 
-**Inventory > expanded system page > Status tab > SLV Tests** - specific to this system
+**Inventory > Local Manager page > Automation > SLV Tests** - specific to this system
 
 # History 
 
@@ -37,8 +37,6 @@ config slv http [no] <“testname”>
 
 # Related commands 
 
-**show slv http**
-
-**show slv test**
-
-**show slv stats**
+- **show slv http**
+- **show slv test**
+- **show slv stats**

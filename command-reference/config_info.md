@@ -103,6 +103,5 @@ Do you want to commit these changes? (y/n):
 
 # Related commands 
 
-**config init**
-
-**show info**
+- **config init**
+- **show info**

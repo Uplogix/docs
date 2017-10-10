@@ -37,4 +37,4 @@ Change these? (y/n) [n]:
 
 # Related commands
 
-**show service-processor**
+- **show service-processor**

@@ -1,6 +1,7 @@
 <!-- 5.4 -->
 
 This command uses the scheduling system to collect data from device interfaces and orders rules applied against collected monitored data. 
+
 For detailed information about writing and using monitors, refer to the Guide to Rules and Monitors. 
 
 # Command availability 
@@ -21,6 +22,7 @@ LMS offerings: All
 
 ```
 config monitors <“object”> <“instanceName”> [“ruleList”] [:“delay”]
+
 ```
 
 objects may be:
@@ -69,7 +71,7 @@ Job was scheduled 0: [Interval: 00:00:30 Mask: * * * * *] rulesMonitor modem emb
 
 **Schedule > Scheduled Tasks** - all equipment that matches the selected filter
 
-**Inventory > expanded Local Manager page > Status tab > schedule button** - specific to this Local Manager
+**Inventory > Local Manager page > Scheduled Tasks > schedule button** - specific to this Local Manager
 
 **Inventory > Local Manager page > port detail > schedule button** - specific to this device
 
@@ -86,10 +88,7 @@ Added sms object for modem.
 
 # Related commands 
 
-**config rule**
-
-**config ruleset**
-
-**show monitors**
-
-**config removejob**
+- **config rule**
+- **config ruleset**
+- **show monitors**
+- **config removejob**

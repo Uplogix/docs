@@ -1,6 +1,6 @@
 <!-- 5.4 -->
 
-Interactive command to set the date and time on the Uplogix Local Manager. Not used with Uplogix Control Center. Local Managers managed by a Uplogix Control Center use the server heartbeat to set the time unless a separate NTP server is configured. If you prefer to use an NTP server to set date and time, use the config system ntp command.
+Interactive command to set the date and time on the Uplogix Local Manager. Not used with Uplogix Control Center. Local Managers managed by a Uplogix Control Center use the server heartbeat to set the time unless a separate NTP server is configured. If you prefer to use an NTP server to set date and time, use the **config system ntp** command.
 
 # Command availability 
 
@@ -36,6 +36,5 @@ Change these? (y/n) [n]:
 
 # Related commands 
 
-**show date**
-
-**config system ntp**
+- **show date**
+- **config system ntp**

@@ -51,9 +51,9 @@ Specifically denied addresses are filtered from those specifically allowed. The 
 
 # In the Uplogix web interface
 
-**Inventory > group page > Local Manager configuration button > Protocols** - specific to this inventory group
+**Inventory > group page > Network > Protocols > IP Filtering** - specific to this inventory group
 
-**Inventory > expanded system page > Configuration tab > Protocols** - specific to this system
+**Inventory > Local Manager page > Network > Protocols > IP Filtering** - specific to this system
 
 # History 
 
@@ -63,4 +63,4 @@ Specifically denied addresses are filtered from those specifically allowed. The 
 
 # Related commands 
 
-**show system protocols**
+- **show system protocols**

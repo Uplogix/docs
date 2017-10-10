@@ -27,9 +27,9 @@ Timeout (5 to 120 minutes): 15
 
 # In the Uplogix web interface
 
-**Inventory > group page > Local Manager configuration button > Timeout** - specific to this inventory group
+**Inventory > group page > System > Timeout** - specific to this inventory group
 
-**Inventory > expanded system page > Configuration tab > Timeout** - specific to this system
+**Inventory > Local Manager page > System > Timeout** - specific to this system
 
 # History 
 
@@ -37,4 +37,4 @@ Timeout (5 to 120 minutes): 15
 
 #Related commands 
 
-**show system timeout**
+- **show system timeout**

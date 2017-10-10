@@ -30,8 +30,6 @@ config export <scp | ftp> <“user@ipAddress:filename”>
 
 # Related commands 
 
-**config import**
-
-**config update**
-
-**show config**
+- **config import**
+- **config update**
+- **show config**

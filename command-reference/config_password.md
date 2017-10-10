@@ -17,7 +17,7 @@ config password [“username”]
 
 ```
 
-# Usage 
+# Usage
 
 If you use the command **config password** without including a username, this allows you to change your own password. The **config password “username”** command allows you to change the password for the specified user account without supplying the current password. You must have the appropriate privileges to change another user's password.
 

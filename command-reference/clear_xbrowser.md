@@ -31,8 +31,6 @@ would you like to remove all custom settings and revert the browser? (y/n) [y]:
 
 # Related commands
 
-**config xbrowser**
-
-**show xbrowser**
-
-**xbrowser**
+* **config xbrowser**
+* **show xbrowser**
+* **xbrowser**

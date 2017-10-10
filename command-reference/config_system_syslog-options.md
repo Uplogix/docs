@@ -36,9 +36,9 @@ Do you want to commit these changes? (y/n): y
 
 # In the Uplogix web interface
 
-**Inventory > group page > Local Manager configuration button > Syslog** - specific to this inventory group
+**Inventory > group page > Network > Syslog** - specific to this inventory group
 
-**Inventory > expanded system page > Configuration tab > Syslog** - specific to this system
+**Inventory > local Manager page > Network > Syslog** - specific to this system
 
 # History 
 
@@ -46,4 +46,4 @@ Do you want to commit these changes? (y/n): y
 
 # Related commands 
 
-**show system syslog-options**
+- **show system syslog-options**

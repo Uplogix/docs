@@ -92,9 +92,9 @@ exit
 
 # In the Uplogix web interface
 
-**Inventory > group page > rules button** - specific to this inventory group
+**Inventory > group page > Automation > Rules** - specific to this inventory group
 
-**Inventory > expanded system page > Status tab > Rules** - specific to this system
+**Inventory > Local Manager page > Automation > Rules** - specific to this system
 
 # History 
 
@@ -106,8 +106,6 @@ exit
 
 # Related commands 
 
-**config ruleset**
-
-**config monitors**
-
-**show rule**
+- **config ruleset**
+- **config monitors**
+- **show rule**

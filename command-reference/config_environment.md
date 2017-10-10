@@ -42,4 +42,4 @@ Do you want to commit these changes? (y/n): y
 
 # Related commands 
  
-**show environment**
+- **show environment**

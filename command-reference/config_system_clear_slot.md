@@ -18,16 +18,16 @@ LMS offerings: All
 
 # Syntax 
 
-Older 4-port Uplogix Local Manager: 
-
-```
-config system clear slot <2 | 3>
-```
-
-32-port Uplogix Local Manager: 
+Uplogix 3200 Local Manager: 
 
 ```
 config system clear slot <1 | 2>
+```
+
+Uplogix 5000 Local Manager: 
+
+```
+config system clear slot <2 | 3>
 ```
 
 # Usage 
@@ -44,3 +44,4 @@ config system clear slot <1 | 2>
 
 # Related commands 
 
+--

@@ -42,6 +42,5 @@ The file may be imported from the Uplogix Control Center using the **config impo
 
 # Related commands 
 
-**config export**
-
-**show config**
+- **config export**
+- **show config**

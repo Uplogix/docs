@@ -58,9 +58,9 @@ The example below shows a role that starts on January 01 and expires on December
 
 **Administration > Roles** - universally available
 
-**Inventory > group page > roles button** - specific to this inventory group
+**Inventory > group page > Security > Roles** - specific to this inventory group
 
-**Inventory > expanded system page > Status tab > Roles** - specific to this system
+**Inventory > Local Manager page > Security > Roles** - specific to this system
 
 # History 
 
@@ -68,4 +68,4 @@ The example below shows a role that starts on January 01 and expires on December
 
 # Related commands 
 
-**show role**
+- **show role**

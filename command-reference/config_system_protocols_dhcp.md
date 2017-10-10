@@ -27,9 +27,9 @@ The base DHCP address parameter is the base address to be used in generating DHC
 
 # In the Uplogix web interface
 
-Inventory > group page > Local Manager configuration button > Protocols - specific to this inventory group
+**Inventory > group page > Network > Protocols > DHCP Settings** - specific to this inventory group
 
-Inventory > expanded system page > Configuration tab > Protocols - specific to this system
+**Inventory > Local Manager page > Network > Protocols > DHCP Settings** - specific to this system
 
 # History 
 
@@ -37,4 +37,4 @@ Inventory > expanded system page > Configuration tab > Protocols - specific to t
 
 # Related commands
 
-show system protocols
+- **show system protocols**

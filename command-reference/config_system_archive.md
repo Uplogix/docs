@@ -41,9 +41,9 @@ The Remove Queued Archive Files prompt allows you to purge archive files that ha
 
 # In the Uplogix web interface
 
-**Inventory > group page > Local Manager configuration button > Archive** - specific to this inventory group
+**Inventory > group page > System > Archive** - specific to this inventory group
 
-**Inventory > expanded system page > Configuration tab > Archive** - specific to this system
+**Inventory > Local Manager page > System > Archive** - specific to this system
 
 # History 
 
@@ -51,4 +51,4 @@ The Remove Queued Archive Files prompt allows you to purge archive files that ha
 
 # Related commands 
 
-**show system archive**
+- **show system archive**

@@ -42,9 +42,9 @@ Do you want to commit these changes? (y/n):
 
 # In the Uplogix web interface
 
-**Inventory > group page > Local Manager configuration button > Secondary Ethernet** - specific to this inventory group
+**Inventory > group page > Network > Secondary Ethernet** - specific to this inventory group
 
-**Inventory > expanded system page > Configuration tab > Secondary Ethernet** - specific to this system
+**Inventory > Local Manager page > Network > Secondary Ethernet** - specific to this system
 
 # History 
 
@@ -52,10 +52,8 @@ Do you want to commit these changes? (y/n):
 
 4.3 – Capture option added 
 
-Related commands 
+# Related commands 
 
-**show system secondary**
-
-**config system bonding**
-
-**show system bonding **
+- **show system secondary**
+- **config system bonding**
+- **show system bonding **

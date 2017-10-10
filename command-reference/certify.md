@@ -1,6 +1,6 @@
 <!-- 5.4 -->
 
-This command saves the Alcatel device's configuration as the "certified" or known good configuration. If the device's configuration is changed in a harmful way later, you can return the device to the certified configuration using the restore command. 
+This command saves the Alcatel device's configuration as the "certified" or known good configuration. If the device's configuration is changed in a harmful way later, you can return the device to the certified configuration using the **restore** command. 
 
 While the device is using a certified configuration, you will not be able to use push or rollback commands.
 
@@ -30,4 +30,5 @@ certify
 
 # Related commands 
 
-**restore**
+
+- **restore**

@@ -34,4 +34,4 @@ config log rule <enable | disable>
 
 # Related commands 
 
-**show log rule**
+- **show log rule**

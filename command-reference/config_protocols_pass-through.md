@@ -50,4 +50,4 @@ SSH port change will take place after the next Local Manager restart.
 
 # Related commands 
 
-**show protocols pass-through**
+- **show protocols pass-through**

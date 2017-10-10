@@ -54,7 +54,7 @@ To remove a port use the [no] modifier before the port number
 
 # In the Uplogix web interface 
 
-**Inventory > expanded system page > Configuration tab > Virtual Ports** - specific to this system
+**Inventory > Local Manager page > System > Virtual Slots** - specific to this system
 
 # History 
 
@@ -64,4 +64,4 @@ To remove a port use the [no] modifier before the port number
 
 # Related commands 
 
-**show system slot**
+- **show system slot**

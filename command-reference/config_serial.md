@@ -31,7 +31,7 @@ The option to test the new settings is presented before the commit dialog.
 The test option is not presented if called using **~s**.
 
 ```
-[admin@UplogixLM (port1/1)]# config serial
+[admin@A505100087 (port1/1)]# config serial
 Serial Bit Rate: 9,600
 Serial Data Bit: 8
 Serial Parity: none
@@ -41,17 +41,18 @@ DSR: false
 CTS: false
 RX : 0
 TX : 0
+Frame Errors: 0
 Overrun Errors: 0
 Parity Errors: 0
 Breaks: 0
 Change these? (y/n) [n]: y
 --- Enter New Values ---
-serial bit rate [9600]:
-serial data bit [8]:
-serial parity [none]:
-serial stop bit [1]:
-serial flow control [none]:
-Do you want to commit these changes? (y/n): 
+Serial Bit Rate [9600]: 19200
+Serial Data Bit [8]:
+Serial Parity [none]:
+Serial Stop Bit [1]:
+Serial Flow Control [none]:
+Do you want to commit these changes? (y/n):
 ```
 
 # History 
@@ -60,8 +61,6 @@ Do you want to commit these changes? (y/n):
 
 # Related commands 
 
-**config system serial**
-
-**show serial**
-
-**show system serial**
+- **config system serial**
+- **show serial**
+- **show system serial**

@@ -39,9 +39,9 @@ Change these? (y/n) [n]:
 
 # In the Uplogix web interface
 
-**Inventory > group page > Local Manager configuration button > Email** - specific to this inventory group
+**Inventory > group page > System > Email** - specific to this inventory group
 
-**Inventory > expanded system page > Configuration tab > Email** - specific to this 
+**Inventory > Local Manager page > System > Email** - specific to this 
 system
 
 # History 
@@ -50,4 +50,4 @@ system
 
 # Related commands 
 
-**show system email**
+- **show system email**

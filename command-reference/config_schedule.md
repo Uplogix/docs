@@ -15,7 +15,7 @@ LMS offerings: All
 # Syntax 
 
 ```
-config schedule <time> <“jobname” [“jobargs”]>
+config schedule <time> <“jobname” [“job args”]>
 ```
 
 **time** can be of one of the following formats:
@@ -75,10 +75,10 @@ The jobs that can be scheduled depend on the device. The following jobs are defi
 # Usage 
 
 ```
-[admin@UplogixLM (port1/1)]# config schedule -o 10/03/17-10:30:00 pushOS candidate
+[admin@UplogixLM (port1/1)]# config schedule -s 01/03/14-10:30:00 -e 02/03/14-10:29:59 -d 30 deviceInfo
 ```
 
-executes push os <candidate> on Oct 3, 2017 at 10:30. 
+executes deviceInfo every 30 seconds between Jan 3 and Feb 3 2014 
 
 ```
 [admin@UplogixLM (port1/1)]# config schedule -M 3 -m 30 clearCounters
@@ -88,11 +88,11 @@ executes clear counters every half hour in March.
 
 # In the Uplogix web interface
 
-**Schedule > Scheduled Tasks** - all devices and system that match the selected filter
+**Schedule > schedule task button** - all devices and system that match the selected filter
 
-**Inventory > expanded system page > Status tab > schedule button** - specific to this system
+**Inventory > Local Manager page > schedule button** - specific to this system
 
-**Inventory > system page > port detail > schedule button** - specific to this device
+**Inventory > Local Manager page > port detail > schedule button** - specific to this device
 
 # History 
 
@@ -100,6 +100,5 @@ executes clear counters every half hour in March.
 
 # Related commands 
 
-**config removejob**
-
-**show schedules**
+- **config removejob**
+- **show schedules**

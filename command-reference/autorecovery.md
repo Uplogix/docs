@@ -27,7 +27,7 @@ autorecovery [delay]
 The **autorecovery** command requires power control to function. If there is no power outlet mapped to the device, **autorecovery** will not operate.
 
 ```
-[admin@xyzcoAus01 (port1/1)]# autorecovery 120
+[admin@UplogixLM (port1/1)]# autorecovery 120
 Job was scheduled 9: [Interval: 00:02:00] intelligentReboot
 ```
 

@@ -44,10 +44,7 @@ Outlet 4 goes to interface port1/2
 
 # Related commands 
 
-**on**
-
-**off**
-
-**power**
-
-**show outlets**
+- **on**
+- **off**
+- **power**
+- **show outlets**

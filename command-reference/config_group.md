@@ -18,9 +18,9 @@ LMS offerings: All
 config group [no] <“groupname”>
 ```
 
-Use the no modifier to delete the group.
+Use the **no** modifier to delete the group.
 
-Account names must be unique. For example, if there is a user account called sysadmin on the Local Manager, you cannot create a group account called sysadmin.
+Account names must be unique. For example, if there is a user account called "sysadmin" on the Local Manager, you cannot create a group account called "sysadmin".
 
 # Subcommands 
 
@@ -55,7 +55,8 @@ Account names must be unique. For example, if there is a user account called sys
 ```
 [admin@UplogixLM]# config group no southwestOps
 Group southwestOps deleted from Local Manager
-
+```
+```
 [admin@UplogixLM]# config group auditors
 Group auditors does not exist. Create (y/n): y
 [config group auditors]# description auditors
@@ -80,6 +81,5 @@ Group auditors does not exist. Create (y/n): y
 
 # Related commands 
 
-**config user**
-
-**show group**
+- **config user**
+- **show group**

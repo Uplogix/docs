@@ -1,6 +1,6 @@
 <!-- 5.4 -->
 
-Opens an editor that allows you to set name/value pairs for a device on one of the system’s ports. These properties can be used by the Uplogix Control Center to generate detailed reports. To set properties for the Uplogix Local Manager, use the config system properties command.
+Opens an editor that allows you to set name/value pairs for a device on one of the system’s ports. These properties can be used by the Uplogix Control Center to generate detailed reports. To set properties for the Uplogix Local Manager, use the **config system properties** command.
 
 # Command availability 
 
@@ -63,7 +63,7 @@ Examples:
 
 # In the Uplogix web interface
 
-**Inventory > system page > port detail > Properties** - specific to this device
+**Inventory > Local Manager page > port detail > Properties** - specific to this device
 
 # History 
 
@@ -71,8 +71,6 @@ Examples:
 
 # Related commands 
 
-**config system properties**
-
-**show properties**
-
-**show system properties**
+- **config system properties**
+- **show properties**
+- **show system properties**

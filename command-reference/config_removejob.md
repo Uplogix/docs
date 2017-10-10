@@ -41,6 +41,5 @@ Job 14 has been removed from the scheduler queue.
 
 # Related commands 
 
-**show schedules**
-
-**show monitors**
+- **show schedules**
+- **show monitors**

@@ -47,9 +47,9 @@ Change these? (y/n) [n]:
 
 # In the Uplogix web interface
 
-**Inventory > group page > Local Manager configuration button > Protocols** - specific to this inventory group
+**Inventory > group page > Network > Protocols > SSH** - specific to this inventory group
 
-**Inventory > expanded system page > Configuration tab > Protocols** - specific to this system
+**Inventory > Local Manager page > Network > Protocols > SSH** - specific to this system
 
 # History 
 
@@ -59,4 +59,4 @@ Change these? (y/n) [n]:
 
 # Related commands 
 
-**show system protocols**
+- **show system protocols**

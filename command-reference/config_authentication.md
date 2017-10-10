@@ -1,6 +1,6 @@
 <!-- 5.4 -->
 
-Interactive command that steps you through the changes needed to update or set the credentials used to communicate with a network device. To set up authentication for the Uplogix Local Manager, use the config system authentication command.
+Interactive command that steps you through the changes needed to update or set the credentials used to communicate with a network device. To set up authentication for the Uplogix Local Manager, use the **config system authentication** command.
 
 # Command availability 
 
@@ -12,7 +12,7 @@ Secondary authentication available on Cisco IOS, Pix, ASA and CatIOS
 
 Power controllers: APC, BayTech, Server Technology
 
-Uplogix system : All
+Uplogix system: All
 
 LMS offerings: All
 
@@ -65,14 +65,9 @@ Saving credentials.
 
 # Related commands 
 
-**config init**
-
-**config system authentication**
-
-**show authentication**
-
-**show system authentication**
-
-**rollback authentication**
-
-**clear password**
+- **config init**
+- **config system authentication**
+- **show authentication**
+- **show system authentication**
+- **rollback authentication**
+- **clear password**

@@ -21,13 +21,16 @@ config ppp
 # Usage 
 
 ```
-[admin@UplogixLM (modem)]# config ppp
---- Existing Values ---
+[admin@uplogixLM (modem)]# config ppp
+--- Existing  Values ---
 Phone Number:
 User Name:
 Password: ********
 Use Static IP Address: false
-Change these? (y/n) [n]: y
+Suspend SLV on Out-of-Band: yes
+Enable Out-of-Band Sharing: no
+Change these? (y/n) [n]:
+
 ```
 
 To use a hardware authenticator, set the password as [PIN]$(SECURID)where [PIN] is an optional password of up to 8 characters and the rest is entered exactly as shown. The password is case-sensitive. 
@@ -38,9 +41,9 @@ If the ppp server requires Challenge Handshake Authentication Protocol (CHAP) yo
 
 # In the Uplogix web interface
 
-**Inventory > group page > Local Manager configuration button  > PPP** - specific to this inventory group
+**Inventory > group page > Out-of-Band > PPP** - specific to this inventory group
 
-**Inventory > expanded system page > Configuration tab > PPP **- specific to this system
+**Inventory > Local Manager page > Out-of-Band > PPP **- specific to this system
 
 # History 
 
@@ -48,6 +51,5 @@ If the ppp server requires Challenge Handshake Authentication Protocol (CHAP) yo
 
 # Related commands 
 
-**show ppp**
-
-**config system pulse**
+- **show ppp**
+- **config system pulse**

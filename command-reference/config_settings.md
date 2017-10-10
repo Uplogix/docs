@@ -24,14 +24,14 @@ config settings
 
 ```
 [admin@UplogixLM (port1/1)]# config settings
---- Preferences Menu ---
-1 Assimilated terminal speed: 9,600
+--- Settings Menu ---
+1 Assimilated terminal speed: 19200
 2 Modify terminal serial speed on assimilation: false
 3 Device configuration pull method: console
 4 Device configuration push method: xmodem
 5 Alternative device configuration push method: tftp
 6 Device configuration push retries: 3
-7 Automatic configuration rollback: [disabled/manual/automatic] automatic
+7 Automatic configuration rollback: [disabled/manual/automatic] manual
 8 Count delay before automatic configuration rollback: 75
 9 Issue 'write memory' after configuration rollback: true
 10 Verify OS upgrade: true
@@ -40,23 +40,27 @@ config settings
 13 Alternative OS image push method: xmodem
 14 Attempt to use XModem-1K (first attempt only): true
 15 Save Configuration on change before reboot? true
-16 Reset console and telnet on auth. change? true
+16 Include current running-config in exports? false
 17 Previous OS image not found, continue? true
 18 Maximum OS image push retry attempts: 3
 19 Device reboot timeout (seconds): 300
 20 Force the device to reboot immediately after pushing the OS: true
 21 Device pass through timeout(seconds): 300
-22 Done
-Select preference to edit or 22 to end:
+22 Enable local echo: false
+23 Leave old OS if space permits during OS upgrade: true
+24 Pull config before 'terminal' if local copy is older than (minutes)? 180
+25 Done
+Select setting to edit or 25 to end:
+
 
 ```
 # In the Uplogix web interface
 
-**Inventory > group page > default port settings button** - inherited from this inventory group
+**Inventory > group page > System > Default Port Settings** - inherited from this inventory group
 
-**Inventory > expanded system page > Status tab > Default Port Settings** - inherited from this system
+**Inventory > Local Manager page > System > Default Port Settings** - inherited from this system
 
-**Inventory > system page > port detail> Port Settings** - specific to this device
+**Inventory > Local Manager page > port detail > Port Settings** - specific to this device
 
 # History
 
@@ -64,4 +68,4 @@ Select preference to edit or 22 to end:
 
 # Related commands
 
-**show settings**
+- **show settings**

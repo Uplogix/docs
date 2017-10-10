@@ -20,18 +20,18 @@ config system management
 ```
 [admin@UplogixLM]# config system management
 --- Existing  Values ---
-Use MANAGEMENT SERVER: false
-MANAGEMENT SERVER Server Hostname or IP: 127.0.0.1
-MANAGEMENT SERVER Server Port: 8443
+Use  Management Server: n
+Hostname or IP: 127.0.0.1
+Port: 8443
 Heartbeat interval (seconds): 30
 Heartbeat band: all
 Last successful heartbeat:  (not yet contacted)
 Change these? (y/n) [n]: y
 --- Enter New Values ---
-Use MANAGEMENT SERVER: (y/n) [n]: y
-MANAGEMENT SERVER Server IP: [127.0.0.1]: 198.51.51.20
+Use Management Server (y/n/auto) [n]: y
+Hostname or IP: [127.0.0.1]: 198.51.51.20
 Set ntp location to 198.51.51.20: (y/n) [y]:
-Management Server Server Port: [8443]:
+Port: [8443]:
 Heartbeat interval (seconds): [30]:
 Heartbeat during: [all]:
 Do you want to commit these changes? (y/n): y
@@ -51,9 +51,9 @@ You will only be prompted for the NTP location if the Local Manager has not been
 
 # In the Uplogix web interface
 
-**Inventory > group page> Local Manager configuration button > Server** - specific to this inventory group
+**Inventory > group page> Network > Management Server** - specific to this inventory group
 
-**Inventory > expanded system page > Configuration tab > Server** - specific to this system
+**Inventory > Local Manager page > Network > Mangement Server** - specific to this system
 
 # History 
 
@@ -63,8 +63,6 @@ You will only be prompted for the NTP location if the Local Manager has not been
 
 # Related commands 
 
-**show system management**
-
-**config system ntp**
-
-**config system archive**
+- **show system management**
+- **config system ntp**
+- **config system archive**
