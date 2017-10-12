@@ -18,20 +18,26 @@ LMS offerings: All
 show directory [-v]
 ```
 
-The –v parameter ads file size and date display.
+The **–v** parameter ads file size and date display.
 
 # Usage 
 
 Files are associated with a particular port, make, model, and OS combination. If you change a device on one of the Uplogix Local Manager’s ports, the files will not be accessible from that device unless it is a similar make, model, and OS combination.
 
 ```
-[admin@xyzcoAus01 (port1/1)]# show dir
+[admin@UplogixLM (port1/3)]# show directory
+Type    Version   Name
+------- --------- ------------
 Config
-    Startup
-        Current   startup-config
-        Previous  startup-config
+  Running*
+        Current   running-config
+        Previous  running-config
+
+  Running-Undo*
+        Candidate running-config-undo43414.img
+
 OS
-        Current   cat4000-k8.7-6-7.bin
+        DAC606    DAC-2202_ 606.s19
 ```
 
 # History 
