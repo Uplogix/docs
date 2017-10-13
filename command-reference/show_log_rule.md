@@ -6,7 +6,7 @@ Before you can show the rule log, you must enable rule logging with the **config
 
 # Command availability 
 
-CLI resource: port, modem
+CLI resource: system, port, modem
 
 Device makes: All
 
