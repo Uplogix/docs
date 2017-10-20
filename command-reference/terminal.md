@@ -26,23 +26,23 @@ terminal
 
 While using the terminal pass-through application, the following commands are available to provide additional functionality:
 
-- **~a** Authentication Wizard
-- **~b** Send break signal
-- **~c** Incremental Commit
-- **~e** Turn on local echo
-- **~f** Start or Stop the FTP server
-- **~g** Enable/disable SFTP/SCP service
-- **~h** Show this help menu
-- **~l** Lock port
-- **~n** Append newlines to carriage returns
-- **~p** Power on/off/cycle this device
-- **~q** Send Solaris alternate break signal
-- **~r** Rollback wizard
-- **~s** Serial connection settings wizard
-- **~t** Tftp server wizard
-- **~x** XModem Wizard
-- **~y** YModem Wizard
-- **~** – Exit Terminal
+* **~a** Authentication Wizard
+* **~b** Send break signal
+* **~c** Incremental Commit
+* **~e** Turn on local echo
+* **~f** Start or Stop the FTP server
+* **~g** Enable/disable SFTP/SCP service
+* **~h** Show this help menu
+* **~l** Lock port
+* **~n** Append newlines to carriage returns
+* **~p** Power on/off/cycle this device
+* **~q** Send Solaris alternate break signal
+* **~r** Rollback wizard
+* **~s** Serial connection settings wizard
+* **~t** Tftp server wizard
+* **~x** XModem Wizard
+* **~y** YModem Wizard
+* **~**  Exit Terminal
 
 Availability of commands is determined by the user’s authorization.
 
