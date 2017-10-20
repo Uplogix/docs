@@ -19,7 +19,7 @@ LMS offerings: All
 # Syntax 
 
 ```
-terminal 
+terminal
 ```
 
 # Subcommands 
