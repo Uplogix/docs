@@ -58,7 +58,7 @@ ServerTech PDUs usually required a straight-through cable.
 
 ## APC RJ-45 to RJ-12 (7900 Series)
 
-![APC 7900 Series](http://uplogix.com/support/docs/img/lm-user-guide/Uplogix-Pinout-Power-Control-APC.png)
+![APC 7900 Series](http://uplogix.com/support/docs/img/lm-user-guide/Uplogix-Pinout-Power-Control-APC-2.png)
 
 # Modems
 
