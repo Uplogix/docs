@@ -6,6 +6,7 @@ The Control Center is designed to receive and respond to requests from Local Man
 * TCP 7 - Echo, used by the [Pulse](http://uplogix.com/docs/local-manager-user-guide/out-of-band-configuration/using-the-pulse-feature) feature
 * TCP 22 - SSH, used to connect to the Control Center CLI
 * TCP 2222 - Reverse SSH, used by Local Managers to create a reverse-ssh tunnel with the Control Center <span class="badge">5.4</span>
+* TCP 2244 - Reverse SSH, used by clients to connect to Local Managers via the reverse-SSH tunnel
 * TCP 80 - HTTP, provides access to the Control Center GUI, redirects to 443
 * UDP 123 - NTP, provides NTP servers to managed devices
 
