@@ -48,9 +48,7 @@ This mode allows the capture and review of network traffic via the secondary Eth
 
 ## System Configuration
 
-To configure outband mode, run **config system secondary** from the system resource. When asked for type, specify outband and options will become available for DHCP, speed/duplex, and DNS. If not using DHCP, the device will prompt for IP address, subnet mask, and default route.
-
-The following example uses DHCP.
+To configure capture mode, run **config system secondary** from the system resource. When asked for type, specify 'capture' and options will become available for speed/duplex.
 
 ```
 [admin@UplogixLM]# config system secondary
@@ -62,9 +60,10 @@ Auxiliary Ethernet Link: no (bonded)
 Change these? (y/n) [n]: y
 --- Enter New Values ---
 Type [bonded]: capture
-speed/duplex [auto]: 
+speed/duplex [auto]:
 Warning: Remote connections may be lost if you commit changes.
 Do you want to commit these changes? (y/n): y
+
 ```
 
 ## Capturing Packets (Basic)
@@ -188,6 +187,30 @@ Forward traffic over Out-of-Band Connection: yes
 # Outband Mode
 
 This mode allows the secondary Ethernet interface to be configured as an out-of-band channel for use during primary network outages.
+
+To configure outband mode, run **config system secondary** from the system resource. When asked for type, specify 'outband' and options will become available for DHCP, speed/duplex, and DNS. If not using DHCP, the device will prompt for IP address, subnet mask, and default route.
+
+The following example uses DHCP.
+
+```
+[admin@uplogixLM]# config system secondary
+--- Existing  Values ---
+Type: bonded
+Bonding Link: yes
+Primary Ethernet Link: yes (bonded active)
+Auxiliary Ethernet Link: no (bonded)
+Change these? (y/n) [n]: y
+--- Enter New Values ---
+Type [bonded]: outband
+Use DHCP (y/n) [n]: y
+speed/duplex [auto]:
+Use DNS (y/n/auto) [auto]:
+Enable Out-of-Band Sharing (y/n) [n]:
+Warning: Remote connections may be lost if you commit changes.
+Do you want to commit these changes? (y/n): y
+```
+
+
 
 ## Usage Notes
 
