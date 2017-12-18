@@ -58,24 +58,15 @@ Based on the *make* provided, the Local Manager will automatically suggest a bau
 
 The Local Manager can be configured to connect to an external modem over Ethernet – this is achieved by configuring a virtual modem (supported on the 500 and 5000 platforms only). A virtual modem will override an embedded modem when configured. Use the **config system slot modem** command to configure a virtual modem. 
 
-**This feature is not often used.**
+
+> **Note: This feature is not often used.** As of LMS version 5.4.3, only Telnet works for PPP on a virtual modem port.      
+
 
 ```
 [admin@UplogixLM]# config sys slot modem
-[config system slot modem]# port 1 203.0.113.6 7002 ssh
-Port 1 added.
-Username: admin
-The authenticity of host ‘203.0.113.6’  cannot be established.
-Fingerprint: ef:74:9a:3f:27:ed:ec:82:c3:d2:13:19:58:e6:55:7b
-    SHA-256: 3b3f.2899.5deb.f5a9.587a.e192.d5e0.f9e8
-             5256.e013.fd84.69d2.2fc9.e71a.7a11.6642
+[config system slot modem]# port 3 203.0.113.6 6003 telnet
+Port 3 added.
 
-Are you sure you want to continue connecting (y/n): y
-Auth failed for user admin
-Password: ********
-Confirm Password: ********
-Successfully connected using password.
-[config system slot modem]#
 ```
 
 # Configuring for dial-in access
