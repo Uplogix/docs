@@ -26,7 +26,7 @@ The card with the inserted fiber module is as shown here:
 
 ![LTE Modem](http://uplogix.com/support/docs/img/SFP-Installation-04.jpg)
 
-**Step 3: ** Insert the module card into the modem slot of the Local Manager, making sure that is is secured within the gray plastic rails.
+**Step 3: ** Insert the module card into the modem slot of the Local Manager, making sure that it is secured within the gray plastic rails.
 
 ![LTE Modem](http://uplogix.com/support/docs/img/SFP-Installation-05.jpg)
 
