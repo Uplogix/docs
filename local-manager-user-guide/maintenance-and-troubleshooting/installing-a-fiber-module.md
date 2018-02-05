@@ -31,6 +31,10 @@ Ensure proper alignment with the connector in the back.
 
 ![LTE Modem](http://uplogix.com/support/docs/img/SFP-Installation-10.jpg)
 
-**Step 4: **Insert the SFP into the slot with the handle facing up. It should snap into place. 
+**Step 4: **Insert the SFP into the slot with the handle facing up. 
 
-![LTE Modem](http://uplogix.com/support/docs/img/SFP-Installation-11.jpg)
+![LTE Modem](http://uplogix.com/support/docs/img/SFP-Installation-12.jpg)
+
+The module should snap into place, and a blinking green light indicates that it is correctly connected. 
+
+![LTE Modem](http://uplogix.com/support/docs/img/SFP-Installation-13.jpg)
