@@ -37,4 +37,4 @@ Ensure proper alignment with the connector in the back.
 
 The module should snap into place, and a blinking green light indicates that it is correctly connected. 
 
-![LTE Modem](http://uplogix.com/support/docs/img/SFP-Installation-13.jpg)
+![LTE Modem](http://uplogix.com/support/docs/img/SFP-Installation-14.jpg)
