@@ -124,14 +124,10 @@ Create a rule set to make scheduling easier:
 ```
 config ruleset iridiumCSQ
 rules
-iridiumCSQ0 OR
-iridiumCSQ1 OR
-iridiumCSQ2 OR
-iridiumCSQ3 OR
-iridiumCSQ4 OR
-iridiumCSQ5
+iridiumCSQ0 | iridiumCSQ1 | iridiumCSQ2 | iridiumCSQ3 | iridiumCSQ4 | iridiumCSQ5
 exit
 exit
+
 ```
 
 Use the **config monitor** command to use these rules:
