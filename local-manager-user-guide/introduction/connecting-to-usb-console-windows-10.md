@@ -1,5 +1,5 @@
 <!-- 5.4 -->
-[![1](http://uplogix.com/support/docs/img/Uplogix-Banner.png)](http://uplogix.com "Uplogix.com")
+[![1](http://uplogix.com/support/docs/img/Support-Doc-Site-Banner2.png)](http://uplogix.com "Uplogix.com")
 
 Connect the USB cable from your Windows 10 computer to the Local Manager mini-USB port.
 
