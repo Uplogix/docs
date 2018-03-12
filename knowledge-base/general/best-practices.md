@@ -1,4 +1,5 @@
 <!-- 5.4 -->
+<!-- Description: This document contains best practices, tips, and tricks for the Uplogix product family. -->
 # Overview
 
 This document contains best practices, tips, and tricks for the Uplogix product family.
@@ -33,6 +34,10 @@ This document contains best practices, tips, and tricks for the Uplogix product 
 
 * Connect both power supplies
 * Connect both Ethernet ports (GE-0/GE-1) if using bonded mode
+
+# Out-of-Band
+
+* Schedule a **ppp cycle** job to continually test the out-of-band connection
 
 # Device Management
 
