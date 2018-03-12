@@ -22,6 +22,7 @@ This document contains best practices, tips, and tricks for the Uplogix product 
 * If using third-party AAA:
 	* Cache passwords
 	* Enable failover to local passwords when the network is down
+* If forwarding Auditing information, use *stop-only.*
 
 # Control Center Configuration
 
@@ -38,9 +39,12 @@ This document contains best practices, tips, and tricks for the Uplogix product 
 # Out-of-Band
 
 * Schedule a **ppp cycle** job to continually test the out-of-band connection
+* Schedule a dialtone test for v92 modems
 
 # Device Management
 
+* Verify serial communication using the *terminal* command prior to initializing port
+* Ensure IOS and ROMMON baud rates are the same
 * Create a functional account for Local Managers to use when managing devices
 * Make use of advanced drivers where possible
 * Enable all passive monitoring
