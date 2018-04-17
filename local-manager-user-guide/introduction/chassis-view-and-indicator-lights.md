@@ -1,4 +1,8 @@
 <!-- 5.4 -->
+<!-- Description: This document contains information on the physical features of the Uplogix Local Manager.. -->
+
+# Overview
+
 
 This section identifies the main physical features of the Local Manager.
 

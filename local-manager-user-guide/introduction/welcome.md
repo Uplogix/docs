@@ -1,4 +1,7 @@
 <!-- 5.4 -->
+<!-- Description: This document contains a description of the configuration, management, and advanced features of the Uplogix Local Manager. -->
+
+# Overview 
 
 The **Using Your Local Manager** section describes the configuration, management, and advanced features of the Uplogix Local Manager. The information presented applies to all models of the Local Manager except where otherwise noted.
 

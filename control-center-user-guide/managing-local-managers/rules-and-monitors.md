@@ -8,8 +8,6 @@ A rule specifies at least one condition to evaluate, and at least one action to 
 
 Rules can be grouped together into rule sets. This simplifies the process of creating monitors.
 
-For a detailed discussion of rules and monitors, refer to the Guide to Rules and Monitors.
-
 # Working with rules
 
 <div class='ucc' />Inventory > Automation > Rules</div>
