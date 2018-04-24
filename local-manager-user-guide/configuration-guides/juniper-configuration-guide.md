@@ -2,7 +2,7 @@
 The purpose of this document is to detail the installation and configuration of Uplogix Local Managers (LM) to manage and facilitate remote connectivity to a Juniper device.
 
 #Features
-Supports Juniper Switches and Routers running JunOS version 11 or higher with the Uplogix 500 or 5000 LM.
+Supports Juniper switches and routers running JunOS version 11 or higher with the Uplogix 500 or 5000 LM.
 
 #Physical Connection
 
