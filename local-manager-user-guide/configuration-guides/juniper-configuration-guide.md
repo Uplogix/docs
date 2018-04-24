@@ -1,12 +1,12 @@
 <!-- 5.4 -->
-The purpose of this document is to detail the installation and configuration of an Uplogix Local Managers (LM) to manage and facilitate remote connectivity to a Juniper device.
+The purpose of this document is to detail the installation and configuration of Uplogix Local Managers (LM) to manage and facilitate remote connectivity to a Juniper device.
 
 #Features
 Supports Juniper Switches and Routers running JunOS version 11 or higher with the Uplogix 500 or 5000 LM.
 
 #Physical Connection
 
-Connect a free serial port on the Uplogix to the Junipers’s RS-232 console management port with a standard Cat-5 cable.
+Connect a free serial port on the Uplogix to the Juniper’s RS-232 console management port with a standard Cat-5 cable.
 
 
 #Configuring the Port
