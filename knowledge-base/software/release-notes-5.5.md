@@ -70,4 +70,4 @@ The Control Center now shows a warning message under the 'Administration' tab if
 
 ## Known Issues in This Release
 
-* Java applications launched from IE 11 on Windows 10 require 32-bit Java.  This affects all Java applications including the Uplogix SSH and Dial-in applications.  Oracle released an article about this issue (https://java.com/en/download/faq/java_win64bit.xml).
+* Java applications launched from IE 11 on Windows 10 require 32-bit Java.  This affects all Java applications including the Uplogix SSH and Dial-in applications.  Oracle released an article about this issue https://java.com/en/download/faq/java_win64bit.xml.
