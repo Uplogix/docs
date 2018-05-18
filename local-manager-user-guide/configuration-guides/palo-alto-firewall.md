@@ -27,7 +27,7 @@ make [native]: enhanced
 management IP: 203.0.113.16
 Configure dedicated ethernet port? (y/n) [n]:
 command prompt [[#>]]:
-login prompt [(ogin:\s]: (?<!Last\s)login:\s
+login prompt [(ogin:\s]: (?<!(?:ast|uccessful)\s)[lL]ogin:\s
 password prompt [assword:\s]: Password:\s
 logout command [exit\r]:
 wakeup command [\r]:
@@ -76,9 +76,9 @@ Palo Alto firewall
 
 To configure the Uplogix LM to backup the running-config of a Palo Alto firewall every three hours, use one of the following commands:
 ```
-config schedule pull sftp -file running-config.xml "scp export configuration from running-config.xml to ${user}@${ip}:${path}" running-config current -d 10800
+config schedule pullSftp -file running-config.xml "scp export configuration from running-config.xml to ${user}@${ip}:${path}" running-config current -d 10800
 
-config schedule pull tftp "tftp export configuration to 10.0.1.2 from running-config.xml" running-config.xml running-config current -d 10800
+config schedule pullTftp "tftp export configuration to 10.0.1.2 from running-config.xml" running-config.xml running-config current -d 10800
 ```
 
 ##Restore Configuration
