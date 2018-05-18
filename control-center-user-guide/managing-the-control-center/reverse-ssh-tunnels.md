@@ -54,7 +54,7 @@ Enabling this feature automatically synchronizes all necessary information betwe
 
 > This feature is separate from the SS5 SOCKS proxy and does not require it to be present or configured.
 
-Click on the SSH button on the Local Manager Summary page to initiate a connectin. The Applet will automatically connect to the Reverse SSH proxy on the Control Center, which will then connect the Applet to the Local Manager via the Reverse SSH tunnel.
+Click on the SSH button on the Local Manager Summary page to initiate a connection. The Applet will automatically connect to the Reverse SSH proxy on the Control Center, which will then connect the Applet to the Local Manager via the Reverse SSH tunnel.
 
 # Viewing tunnel status
 
@@ -72,3 +72,19 @@ Remote: 198.51.100.1:2222
 Active: 47 minutes, 53 seconds
 Local: 198.51.100.48:36169 (47:53)
 ```
+
+# Disabling Reverse SSH Tunnels
+
+By default, the Control Center will listen for Reverse SSH connections on port 2222. If you will not be using Reverse SSH and would like to close port 2222, you can do so by [becoming root](https://uplogix.com/docs/control-center-user-guide/managing-the-control-center) and issuing the following commands:
+
+```
+[emsadmin@UplogixControlCenter ~]$ sudo su -
+[sudo] password for emsadmin: 
+[root@UplogixControlCenter ~]# service matchmaker stop
+Shutting down Uplogix MatchMaker: Waiting for Uplogix MatchMaker to exit...
+                                                           [  OK  ]
+Stopped Uplogix MatchMaker.
+[root@UplogixControlCenter ~]# chkconfig matchmaker off
+```
+
+The **service** command turns off the Reverse SSH service. The **chkconfig** command prevents the Reverse SSH service from starting after a reboot.
