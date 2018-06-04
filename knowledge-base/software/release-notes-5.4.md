@@ -6,7 +6,6 @@ The following software features, improvements and fixes have been made in both t
 
 > This document covers LMS version 5.4 and all subsequent patch releases. Changes made in patch releases are marked with the version number.
 
-
 # Uplogix Local Manager Updates
 
 ## New Features and Improvements
@@ -70,6 +69,8 @@ The pullTFTP function allows users to define and schedule jobs to backup OS and 
 	* CVE-2016-9147: A denial of service flaw was found in the way BIND handled a query response containing inconsistent DNSSEC information. A remote hacker could use this flaw to make the named process exit unexpectedly with an assertion failure via a specially crafted DNS response.
 	* CVE-2016-7429: A flaw was found in the way ntpd running on a host with multiple network interfaces handled certain server responses. A remote attacker could use this flaw that would cause ntpd to not synchronize with the source.
 	* CVE-2016-7433: A flaw was found in the way ntpd calculated the root delay. A remote attacker could send a specially-crafted spoofed packet to cause denial of service or in some special cases even crash.
+* (**5.4.2**) Push OS improvements with Cisco IE and un-stacked 3750s.
+* (**5.4.3**) No changes were made to the Local Manager in this patch, but it is recommended to upgrade for consistency and ease of deployment management.
 
 
 ## Known Issues in This Release
@@ -133,4 +134,26 @@ Previous releases only identified down to the chassis model number for managed d
 	* CVE-2016-9310:  A flaw was found in the control mode functionality of ntpd. A remote attacker could send a crafted control mode packet, which could lead to information disclosure or result in DDoS amplification attacks.
 	* CVE-2016-9311 A flaw was found in the way ntpd implemented the trap service. A remote attacker could send a specially crafted packet to cause a null pointer dereference that will crash ntpd, resulting in a denial of service.
 * (**5.4.1**) Upgraded Tomcat from 7.0.73 to 7.0.75.
+* (**5.4.2**) Patched critical Struts vulnerability "Strutshock" (CVE-2017-5638).
+* (**5.4.2**) Improved Dial-in when using SOCKS.
+* (**5.4.3**) Fixed SSH, Terminal, and Dial-in applications to work with JRE 1.8 update 141+.
+	* While JRE versions 1.8 update 51 through 1.8 update 131 work with most versions of the Control Center (including 5.4.0, 5.4.1, 5.4.2, and 5.4.3), it is recommended to upgrade your client JRE to the latest version.  With version 141 and after (ex. 151, 161, 171), patch version 5.4.3 is required.  If needed, JRE 1.7 update 80 can be made to work with some configuration.  For more information, please contact Uplogix Support.  JRE 1.7 update 40 is no longer supported.
+	
+# Release Dates and Build Numbers
+
+### Version 5.4.0
+* Release Date: 12/19/2016
+* Build Number: 30647
+
+### Version 5.4.1
+* Release Date: 2/17/2017
+* Build Number: 30876
+
+### Version 5.4.2
+* Release Date: 6/14/2017
+* Build Number: 31553
+
+### Version 5.4.3
+* Release Date: 7/26/2017
+* Build Number: 31895
 
