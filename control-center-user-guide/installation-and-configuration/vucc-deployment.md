@@ -1,8 +1,8 @@
-<!-- 5.4 -->
+<!-- 5.5 -->
 
-This document contains instructions for using vSphere to deploy a virtual Uplogix Control Center (vUCC) running LMS version 5.4 to a VMware server.  Note: newer versions of VMware ESXi (v6+) no longer support all features of vSphere, but they do still work for deploying our image.  You may use the newer HTML5 application to deploy the vUCC.  Requirements and steps are almost identical.
+This document contains instructions for using vSphere to deploy a virtual Uplogix Control Center (vUCC) to a VMware server.  Note: newer versions of VMware ESXi (v6+) no longer support all features of vSphere, but they still work for deploying our image.  You may use the newer HTML5 application to deploy the vUCC.  Requirements and steps are almost identical.
 
-Prepare to have available disk (see [Requirements](#requirements)), two IP addresses on the same network with netmask and gateway, NTP server, and an optional DNS server.  You will also need to have downloaded the vUCC OVA file (vucc5.4.ova) from the Uplogix Support Site.
+Prepare to have available disk (see [Requirements](#requirements)), two IP addresses on the same network with netmask and gateway, NTP server, and an optional DNS server.  You will also need to have downloaded the vUCC OVA file from the Uplogix Support Site.
  
 # Requirements
 
@@ -13,9 +13,9 @@ Prepare to have available disk (see [Requirements](#requirements)), two IP addre
 |--|--|--|--| 
 | >1000 Local Managers | 825 GB thick (SSD)	| 8 GB | 8 cores
 | 250-999 Local Managers | ~650 GB thin (SAS/SSD) | 8 GB | 8 cores
-|100-249 Local Managers	| ~550 GB thin (SAS/SSD) | 4 GB* | 4 cores
-|1-99 Local Managers | ~450 GB thin (SAS/SSD) | 4 GB* | 2 cores
-| Evaluation vUCC (<10 LMs) | ~65 GB thin (SATA) | 1 GB | 1 core
+|100-249 Local Managers	| ~550 GB thin (SAS/SSD) | 4 GB* / 8 GB default | 4 cores
+|1-99 Local Managers | ~450 GB thin (SAS/SSD) | 4 GB* / 8 GB default | 2 cores
+| Evaluation vUCC (<10 LMs) | ~65 GB thin (SATA) | 1 GB* / 8 GB default | 2 cores
 
 *Requires vUCC application RAM settings to be adjusted - see [Adjusting Memory](#adjusting-memory)
 
