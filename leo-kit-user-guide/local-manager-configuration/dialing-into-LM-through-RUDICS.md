@@ -1,20 +1,16 @@
 <!-- 5.5 -->
 
-## Dialing into a Local Manager through RUDICS
+This functionality allows you to dial into Local Managers through RUDICS. There are a couple ways to connect to RUDICS:
 
-This functionality allows you to dial into Local Managers through RUDICS.
-
-#### Method 1: Telnet directly into the RUDICS via PuTTY :
+### Method 1: Telnet directly into the RUDICS via PuTTY:
 
 
-Open PuTTY to display the configuration window. Enter the IP address or hostname of the RUDICS router and select 'Telnet' ad the connection type. Available ports are **2663** through **2667**.
+Open PuTTY to display the configuration window. Enter the IP address or hostname of the RUDICS router and select 'Telnet' as the connection type. Available ports are **2663** through **2667**.
 
 ![Putty - IP and Tunnels](http://uplogix.com/support/docs/img/putty-rudics-telnet3.jpg)
 
 
-#### Method 2: Telnet to the RUDICS via the UCC
-
-
+### Method 2: Telnet to the RUDICS via the UCC
 
 
 SSh to the UCC and [become root](https://uplogix.com/docs/control-center-user-guide/managing-the-control-center "Becoming Root").
@@ -35,7 +31,7 @@ Telnet to the RUDICS router
 Entering character mode
 Escape character is '^]'.
 ```
-### Prepare the session by setting the serial settings
+## Prepare the session by setting the serial settings
  
 Once you are connected to RUDICS, issue the commands **ATZ**, **ats29=8**, and **ats57=9660**, allowing the modem to return 'OK.'
  
@@ -49,7 +45,7 @@ OK
 
 ```
 
-### Dial into the Local Manager
+## Dial into the Local Manager
 The dial command is **atdi** and the phone number with no spaces.
 ```
 atdi00881693144440
