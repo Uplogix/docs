@@ -1,6 +1,6 @@
 <!-- 5.5 -->
 
-This functionality allows you to dial into Local Managers through RUDICS. There are a couple ways to connect to RUDICS:
+This functionality allows you to dial into Local Managers through an Irridium modem without
 
 ### Method 1: Telnet directly into the RUDICS via PuTTY:
 
@@ -9,8 +9,9 @@ Open PuTTY to display the configuration window. Enter the IP address or hostname
 
 ![Putty - IP and Tunnels](http://uplogix.com/support/docs/img/putty-rudics-telnet3.jpg)
 
+Once you have successfully connected, you should be able to issue modem commands.
 
-### Method 2: Telnet to the RUDICS via the UCC
+### Method 2: Telnet to the RUDICS router via the UCC
 
 
 SSh to the UCC and [become root](https://uplogix.com/docs/control-center-user-guide/managing-the-control-center "Becoming Root").
