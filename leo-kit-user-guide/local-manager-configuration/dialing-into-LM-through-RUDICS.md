@@ -7,30 +7,28 @@ The following steps allow you to dial into Local Managers through an Iridium mod
 ### Method 1: Telnet directly into RUDICS via PuTTY:
 
 
-Open PuTTY to display the configuration window. Enter the IP address or hostname of the RUDICS router and select 'Telnet' as the connection type. The port should be provided to you by Iridium.
+Open PuTTY to display the configuration window. Enter the IP address of the RUDICS server and select 'Telnet' as the connection type. The port number should be provided to you by Iridium.
 
 
-![Putty - IP and Tunnels](http://uplogix.com/support/docs/img/putty-rudics-telnet3.jpg)
+![Putty - IP and Tunnels](http://uplogix.com/support/docs/img/putty-rudics-telnet4.jpg)
 
 Once you have successfully connected, you should be able to issue modem commands.
 
 ### Method 2: Telnet to RUDICS via the UCC command line.
 
 
-SSh to the UCC and [become root](https://uplogix.com/docs/control-center-user-guide/managing-the-control-center "Becoming Root").
+SSh to the UCC
 
 ```
 login as: emsadmin
 emsadmin@UplogixUCC's password:
 Last login: Mon Jun 18 16:20:28 2018 from 192.34.24.11
-[emsadmin@UplogixUCC ~]$ sudo su -
-[sudo] password for emsadmin:
-[root@UplogixUCCl ~]# 
+[emsadmin@UplogixUCC ~]$
 ```
-Telnet to the RUDICS router 
+Telnet to the RUDICS router by issuing the command **telnet [rudicsIP] [port]**  
  
 ```
-[root@vUCC-Eval ~]# telnet rudics.hostname.com 2663
+[emsadmin@UplogixUCC ~]# telnet 172.30.123.98 2663
 
 Entering character mode
 Escape character is '^]'.
