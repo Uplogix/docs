@@ -2,7 +2,7 @@
 
 # Overview
 
-Local Managers can be upgraded individually (e.g., when adding a new unit to the deployment), both from the UCC and CLI, or you can schedule them to upgrade in batches (e.g., after a Control Center upgrade..
+Local Managers can be upgraded individually (e.g., when adding a new unit to the deployment), both from the UCC and CLI, or you can schedule them to upgrade in batches (e.g., after a Control Center upgrade.)
 
 Here are some best practices to consider:
 
