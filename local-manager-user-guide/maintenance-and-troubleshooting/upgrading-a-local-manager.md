@@ -23,17 +23,20 @@ Visit your Uplogix Support Site account page at uplogix.com/support/account.
 
 <div class='warning' />An active maintenance contract is required to access the Uplogix Support Site account page and/or download software. If your maintenance contract has expired, please contact Uplogix Support.</div>
 
-Find the section marked *Software Downloads*.
+Find the green button marked *Download Software*.
 
-![Support Site Software Downloads](http://uplogix.com/support/docs/img/lm-user-guide/software_downloads.png)
+![Support Site Software Downloads](http://uplogix.com/support/docs/img/lm-user-guide/software_downloads2.png)
 
-Click the lms.bin link for your desired software version to generate a download link.
+Click the folder link for your desired software version.
 
-![Support Site Download Link](http://uplogix.com/support/docs/img/lm-user-guide/download_ready.png)
+![Support Site Download Link](http://uplogix.com/support/docs/img/lm-user-guide/software_downloads3.png)
 
 Click the link to download the bin file to your desktop.
 
-Files downloaded from the Support Site are automatically tagged with the version number for easy organization. Documentation will refer to the file as an **lms.bin** file, but you will be working with your tagged version, for example, **lms5.4.bin**.
+> **Important**: The latest version of software (**5.5.0**) will not run on EOL Local Managers, including the Uplogix 400, 430, and 3200.
+
+> Customers with Local Managers on older versions (**5.3.0** or older) will need to upgrade in steps to get to 5.5.0 (first to **5.4.3**, then again to to **5.5.0**). Please contact Uplogix Support for information on your upgrade path and what files are needed prior to the upgrade.
+
 
 # Upgrading via SCP, FTP, and HTTP
 
@@ -41,27 +44,29 @@ SCP, FTP, and HTTP require the lms.bin file to be staged on an appropriate serve
 
 > The Control Center can be used as an SCP target because of its Linux operation system. Use a program like WinSCP or pscp to transfer the bin file to /home/emsadmin.
 
-<div class='warning' />While possible, please do not use the Uplogix Support Site as an HTTP target if you upgrade a large number of Local Managers.</div>
+
+
+> **Warning:** While possible, please do not use the Uplogix Support Site as an HTTP target if you upgrade a large number of Local Managers.</div>
 
 Log into your Local Manager and use the **config update** command to initiate the upgrade. You will need to specify the IP address or hostname of the target and the path to the file.
 
 For example:
 
 ```
-config update scp user@198.51.100.172:lms5.4.bin
+config update scp user@198.51.100.172:UplogixOS-5.5.32896g-genericx86.bin
 ```
 
 or
 
 
 ```
-config update ftp user@198.51.100.172:lms4.7.bin
+config update ftp user@198.51.100.172:UplogixOS-5.5.32896g-genericx86.bin
 ```
 
 or
 
 ```
-config update http http://198.51.100.172/lms5.4.bin
+config update http http://198.51.100.172/UplogixOS-5.5.32896g-genericx86.bin
 ```
 
 # Upgrading via the Control Center
@@ -76,29 +81,15 @@ Flash drives are a useful alternative if the Local Manager isn't on the network 
 
 The flash drive should be formatted with the FAT16 filesystem. If the drive is formatted with FAT32, it must be removed from the Local Manager after it reboots to complete the upgrade.
 
-## Add "upgrade.mnf" File (optional)
+## Add "upgrade.mnf" File
 
-If you will be upgrading via the front panel (Uplogix 5000 Local Manager only), you will need a properly configured MNF file in the root of the flash drive.
-
-```
-[user@linux EnvoyOS]$ cat upgrade.mnf
-ENVOY_BIN=lms5.4.bin
-VERSION=5.4.0
-```
-
-If you will be upgrading via the command line, you will need to know the exact filename of the upgrade file.
-
-## Add Software Image
-
-Copy the Uplogix LMS software image to the root directory of your flash drive. If using an MNF file, ensure that the filename matches the ENVOY_BIN line exactly.
+Download the **upgrade.mnf** file from the Uplogix Software Directory of the version you wish to upgrade to and copy it to the root directory of the USB drive.
 
 ## Plug in USB Drive
 
 Use a free USB slot on the front of the Local Manager. Allow a few seconds for the system to recognize the new drive.
 
 ## USB Upgrade via Front Panel
-
-> An upgrade.mnf file is required for front-panel upgrades.
 
 Press the center button on the keypad to enter the Local Manager menu.
 
@@ -114,6 +105,6 @@ The upgrade will now continue on its own. While the software is transferred to t
 
 Log into the Local Manager.
 
-Run **config update usb [filename]**. If the filename is not specified, the appliance will attempt to discover this information via the MNF file.
+Run **config update usb upgrade.mnf**. If the filename is not specified, the appliance will attempt to discover this information via the MNF file.
 
 The Local Manager will then copy the file over, verify it, and begin the upgrade.
