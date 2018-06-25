@@ -32,7 +32,7 @@ As part of the upgrade process, we will log into the UCC's Linux layer as *emsad
 
 # Prepare the Control Center for file transfers
 
-Once we are able to access the emsadmin account, we will need to ensure that we area able to transfer files to the UCC. Typically we will download the required version from our Support Site to your computer, and then transfer it (via FTP or SCP) to the UCC. If you are running a Windows computer, we may need some additional tools to do an FTP or SCP transfer, such as pscp, WinSPC or FileZilla FTP Server.
+Once we are able to access the emsadmin account, we will need to ensure that we area able to transfer files to the UCC. Typically we will download the required version from our Support Site to your computer, and then transfer it (via FTP or SCP) to the UCC. If you are running a Windows computer, we may need some additional tools to do an FTP or SCP transfer, such as pscp, WinSCP or Cyberduck FTP Server.
 
 If your UCC has access to the internet, we may be able to directly download the files from the Uplogix servers using wget or SCP.
 
