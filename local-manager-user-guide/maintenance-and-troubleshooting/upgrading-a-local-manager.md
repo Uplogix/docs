@@ -35,7 +35,7 @@ Click the link to download the bin file to your desktop.
 
 > **Important**: The latest version of software (**5.5.0**) will not run on EOL Local Managers, including the Uplogix 400, 430, and 3200.
 
-> Customers with Local Managers on older versions (**5.3.0** or older) will need to upgrade in steps to get to 5.5.0 (first to **5.4.3**, then again to to **5.5.0**). Please contact Uplogix Support for information on your upgrade path and what files are needed prior to the upgrade.
+> Customers with Local Managers on older versions (**5.3.0** or older) will need to upgrade in steps to get to 5.5.0 (first to **5.4.3**, then again to **5.5.0**). Please contact Uplogix Support for information on your upgrade path and what files are needed prior to the upgrade.
 
 
 # Upgrading via SCP, FTP, and HTTP
@@ -46,7 +46,7 @@ SCP, FTP, and HTTP require the lms.bin file to be staged on an appropriate serve
 
 
 
-> **Warning:** While possible, please do not use the Uplogix Support Site as an HTTP target if you upgrade a large number of Local Managers.</div>
+> **Warning:** While possible, please do not use the Uplogix Support Site as an HTTP target if you upgrade a large number of Local Managers.
 
 Log into your Local Manager and use the **config update** command to initiate the upgrade. You will need to specify the IP address or hostname of the target and the path to the file.
 
