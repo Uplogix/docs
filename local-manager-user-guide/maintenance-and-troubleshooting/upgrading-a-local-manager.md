@@ -1,4 +1,4 @@
-<!-- 5.4 -->
+<!-- 5.5 -->
 
 For the best and most secure experience, Uplogix Local Managers should always run the latest version of LMS. Uplogix generally releases two new versions of software each year, but may also release patches if important bugfixes or security updates are required.
 

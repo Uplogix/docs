@@ -1,4 +1,4 @@
-<!-- 5.4 -->
+<!-- 5.5 -->
 
 # Overview
 
@@ -15,23 +15,23 @@ The information presented in this article is a subset of [Managing Scheduled Tas
 
 <div class='ucc' />Administration -> File Archive</div>
 
-Before you can schedule an update task, you need to upload the new Local Manager software (lms.bin) to the Control Center's File Archive.
+Before you can schedule an update task, you need to upload the new Local Manager software (.bin file) to the Control Center's File Archive.
 
 Access your Control Center, click on the Administration tab, and choose File Archive on the left side of the page.
 
-![Uplogix Control Center - File Archive Blank](http://uplogix.com/support/docs/img/5.4/uplogix-control-center-file-archive.png)
+![Uplogix Control Center - File Archive Blank](http://uplogix.com/support/docs/img/uplogix-control-center-file-archive2.png)
  
 If you do not already have a category defined, enter a new name (e.g., "LMS_Software"). Click Choose File to locate the upgrade file on your computer. Add an optional description and click Upload.
 
 > File Archive category names cannot contain spaces or special characters.
 
-![Uplogix Control Center - File Archive Upload](http://uplogix.com/support/docs/img/5.4/uplogix-control-center-file-archive-upload.png)
+![Uplogix Control Center - File Archive Upload](http://uplogix.com/support/docs/img/Untitled-3uplogix-control-center-file-archive-upload3.png)
 
 If you are using a recent version of Google Chrome, the upload percentage will appear in the lower left of the browser window.
 
 Once the file upload completes, it will be listed in the File Archive.
 
-![Uplogix Control Center - File Archive List](http://uplogix.com/support/docs/img/5.4/uplogix-control-center-file-archive-list.png)
+![Uplogix Control Center - File Archive List](http://uplogix.com/support/docs/img/uplogix-control-center-file-archive-list2.png)
 
 # Creating a Filter
 
@@ -75,13 +75,13 @@ Click *Next* on the right side of the page.
 
 Since we selected the Update task, we'll need to specify an update file.
 
-![Uplogix Control Center](http://uplogix.com/support/docs/img/5.4/uplogix-control-center-schedule-tasks-update.png)
+![Uplogix Control Center](http://uplogix.com/support/docs/img/uplogix-control-center-schedule-tasks-update2.png)
 
 Select the update file from the list and click Next.
 
 > While *Ignore Data Loss* warning may sound ominous, it is only applicable when downgrading software on a Local Manager as most data cannot be retained.
 
-![Uplogix Control Center - Task Frequency](http://uplogix.com/support/docs/img/5.4/uplogix-control-center-schedule-tasks-frequency.png)
+![Uplogix Control Center - Task Frequency](http://uplogix.com/support/docs/img/uplogix-control-center-schedule-tasks-frequency2.png)
 
 Update tasks can be run immediately (default) or at a scheduled time. When this page is initially loaded, the current time is populated as the Start time. Do not modify the Stop or Repeat options, as we only want the upgrade to run once.
 
