@@ -172,8 +172,8 @@ exit
 exit
 
 
-config ruleset no paloAltoChassisRules
-config ruleset paloAltoChassisRules
+config ruleset no PaloAltoChassisRules
+config ruleset PaloAltoChassisRules
 rules
 PaloAltoCPUCheck0 | PaloAltoCPUCheck1 | PaloAltoMemoryCheck0 | PaloAltoMemoryCheck1 | PaloAltoDiskCheck0 | PaloAltoDiskCheck1
 exit
