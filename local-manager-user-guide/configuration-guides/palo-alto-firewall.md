@@ -1,26 +1,26 @@
 <!-- 5.4 -->
-The purpose of this document is to detail the installation and configuration of an Uplogix Local Managers (LM) to manage and facilitate remote connectivity to a Palo Alto firewall.
+The purpose of this document is to detail the installation and configuration of an Uplogix Local Manager (LM) to manage and facilitate remote connectivity to a Palo Alto firewall.
 
 #Features
-Supports Palo Alto firewalls running PAN-OS version 4 or higher with Uplogix 500 or 5000
+Supports Palo Alto firewalls running PAN-OS version 4 or higher.
 
 #Physical Connection
 
-Connect a free serial port on the Uplogix to the Palo Alto’s RS-232 console management port with a standard Cat-5 cable.
+Connect a free serial port on the Local Manager to the Palo Alto’s RS-232 console management port with a standard Cat-5 cable.
 
 #Recommended Configuration
 
-For proactive monitoring of the Palo Alto’s status and to ensure the availability of backup configurations it is recommended that:
-- the Uplogix LM serial port connected to the Palo Alto is configured via the config init command
-- automatic backup of the configuration is scheduled 
-- the paloAltoStatus ruleset is scheduled 
+For proactive monitoring of the Palo Alto’s status, and to ensure the availability of backup configurations, it is recommended that:
+- The Local Manager serial port connected to the Palo Alto is configured via the **config init** command.
+- Automatic backup of the configuration is scheduled.
+- Tthe paloAltoStatus ruleset is scheduled 
 
 #Configuring the Port
 
-To configure the Uplogix LM for connection to a Palo Alto firewall, navigate to the port that the Palo Alto is connected to, run the command config init, and follow the prompts as below (substituting your Palo Alto’s IP address for 203.0.113.16):
+To configure the Local Manager for connection to a Palo Alto firewall, navigate to the port that the Palo Alto is connected to, run the command config init, and follow the prompts as below (substituting your Palo Alto’s IP address):
 
 ```
-[admin@EVALPOD2 (port1/4)]# config init
+[admin@UplogixLM (port1/4)]# config init
 --- Enter New Values ---
 description: Palo Alto firewall
 make [native]: enhanced
@@ -48,15 +48,15 @@ Job rulesMonitor was successful
 Job rulesMonitor was scheduled
 ```
 
-The default console settings for the Palo Alto firewall are 9600 bit rate, 8 serial data bit, no serial parity, serial stop bit 1, no flow control.
+The default console settings for the Palo Alto firewall are 9600 bit rate, 8 serial data bit, no serial parity, serial stop bit 1, and no flow control.
 
 #Managing Configurations
 
-##Backup Configuration 
+##Back up Configuration 
 
-The Uplogix Local Manager can save up to twenty backup images on the LM’s file system for use in restoring a configuration or pushing a configuration to a new Palo Alto. The file can be transferred to the LM via TFTP or SCP.
+The Uplogix Local Manager can save up to twenty backup images on its file system for use in restoring a configuration or pushing a configuration to a new Palo Alto. The file can be transferred to the LM via TFTP or SCP.
 
-To save the Palo Alto’s configuration to the LM, navigate to the port that the Palo Alto is connected to and run the either of the following commands, substituting the LM’s IP address for 10.0.1.2:
+To save the Palo Alto’s configuration to the LM, navigate to the port that the Palo Alto is connected to and run the either of the following commands, substituting the LM’s IP address:
 
 ```
 pull sftp -file running-config.xml "scp export configuration from running-config.xml to ${user}@${ip}:${path}" running-config current
@@ -74,7 +74,7 @@ Palo Alto firewall
 
 ##Automatic Configuration Backup
 
-To configure the Uplogix LM to backup the running-config of a Palo Alto firewall every three hours, use one of the following commands:
+To configure the Local Manager to back up the running-config of a Palo Alto firewall every three hours, use one of the following commands:
 ```
 config schedule pullSftp -file running-config.xml "scp export configuration from running-config.xml to ${user}@${ip}:${path}" running-config current -d 10800
 
@@ -85,7 +85,7 @@ config schedule pullTftp "tftp export configuration to 10.0.1.2 from running-con
 
 There are multiple steps to restore a backup configuration to a Palo Alto firewall. The file may be transferred via SCP or TFTP. 
 
-First, navigate to the port the Palo Alto is connected to, and stage the file to be restored as a candidate configuration:
+First, navigate to the port the Palo Alto is connected to and stage the file to be restored as a *candidate* configuration:
 
 ```
 [admin@UplogixLM (port1/4)]# copy running-config previous candidate
@@ -99,13 +99,13 @@ push sftp -file running-config.xml "scp import configuration ${user}@${ip}:${pat
 push tftp "tftp import configuration 10.0.1.2/running-config.xml \r configure \r load config from running-config.xml \r commit \r exit" running-config.xml running-config candidate
 ```
 
-Upon entering one of those commands, the Uplogix LM will connect to the Palo Alto’s CLI, copy the candidate configuration down, and apply the configuration.
+Upon entering one of those commands, the Uplogix LM will connect to the Palo Alto’s CLI, transfer the candidate configuration, and apply the configuration.
 
 #Monitoring Palo Alto Status
 
 ##Palo Alto Health Check Ruleset
 
-The Uplogix LM can be configured to monitor the status of a managed Palo Alto using the paloAltoStatus rule set. The LM will check the Palo Alto for environmental alarms and high CPU usage. High CPU usage or system heat will trigger an alarm in the LM. 
+The Local Manager can be configured to monitor the status of a managed Palo Alto using the paloAltoStatus rule set. The LM will check the Palo Alto for environmental alarms and high CPU usage. High CPU usage or system heat will trigger an alarm on the LM. 
 
 To load the paloAltoStatus rule set on the LM, copy and paste the following into the LM at the system level:
 
@@ -174,7 +174,7 @@ exit
 exit
 ```
 
-To configure the Uplogix LM to use the paloAltoStatus rule set to monitor a Palo Alto firewall, navigate to the port that the Palo Alto is connected to and run the following command:
+To configure the LM to use the paloAltoStatus rule set to monitor a Palo Alto firewall, navigate to the port that the Palo Alto is connected to and run the following command:
 
 ```
 config monitor chassis paloAltoStatus
@@ -184,7 +184,7 @@ config monitor chassis paloAltoStatus
 
 ##Port Forwarding
 
-The Uplogix Local Manager can facilitate connections to the Palo Alto’s web interface using the port forwarding feature. Run configure protocol forward on the port the Palo Alto is connected to and add an entry as below: 
+The Local Manager can facilitate connections to the Palo Alto’s web interface using the port forwarding feature. Run configure protocol forward on the port the Palo Alto is connected to and add an entry as below: 
 
 ```
 [admin@UplogixLM (port1/4)]# config protocol forward
@@ -192,6 +192,6 @@ The Uplogix Local Manager can facilitate connections to the Palo Alto’s web in
 [forward]# exit
 ```
 
-Users may now connect to the web interface through a SSH tunnel using the port forwarding feature. In the Uplogix CLI applet, click Terminal, then Forward. Select the Palo Alto’s port, enter 443 for the port number, and click Apply. Now, port 443 on 127.0.0.1 on your workstation will connect through the SSH tunnel created by the LM to the web interface on the Palo Alto.
+Users may now connect to the web interface through an SSH tunnel using the port forwarding feature. In SSh applet on the Control Center, click *Terminal*, then *Forward*. Select the Palo Alto’s port, enter 443 for the port number, and click *Apply*. Now, port 443 on 127.0.0.1 on your workstation will connect through the SSH tunnel created by the LM to the web interface on the Palo Alto.
 
 ![](http://www.uplogix.com/support/docs/img/PaloAlto/PortForwarding.png)
