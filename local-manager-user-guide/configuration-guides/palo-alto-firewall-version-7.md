@@ -107,9 +107,9 @@ Upon entering one of those commands, the LM will connect to the Palo Alto’s CL
 
 ##Palo Alto Health Check Ruleset
 
-The Local Manager can be configured to monitor the status of a managed Palo Alto using the paloAltoStatus rule set. The LM will check the Palo Alto for environmental alarms and high CPU usage. High CPU usage or system heat will trigger an alarm on the LM. 
+The Local Manager can be configured to monitor the status of a managed Palo Alto using the PaloAltoChassisRules rule set. The LM will check the Palo Alto for environmental alarms and high CPU usage. High CPU usage or system heat will trigger an alarm on the LM. 
 
-To load the paloAltoStatus rule set on the LM, copy and paste the following into the LM at the system level:
+To load the PaloAltoChassisRules rule set on the LM, copy and paste the following into the LM at the system level:
 
 ```
 config rule no PaloAltoCPUCheck0
@@ -181,7 +181,7 @@ exit
 
 ```
 
-To configure the Uplogix LM to use the paloAltoStatus rule set to monitor a Palo Alto firewall, navigate to the port that the Palo Alto is connected to and run the following command:
+To configure the Uplogix LM to use the PaloAltoChassisRules rule set to monitor a Palo Alto firewall, navigate to the port that the Palo Alto is connected to and run the following command:
 
 ```
 config monitor chassis PaloAltoChassisRules
