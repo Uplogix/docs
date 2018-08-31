@@ -163,11 +163,11 @@ description a rule to send an alarm when disk usage is above a certain number - 
 action alarm GENERIC -a "disk usage over 80%"
 action writeStatus DISK USAGE HIGH
 conditions
-compare-value monitor disk1usage >= 8 OR
-compare-value monitor disk2usage >= 8 OR
-compare-value monitor disk3usage >= 8 OR
-compare-value monitor disk4usage >= 8 OR
-compare-value monitor disk5usage >= 8
+compare-value monitor disk1usage >= 80 OR
+compare-value monitor disk2usage >= 80 OR
+compare-value monitor disk3usage >= 80 OR
+compare-value monitor disk4usage >= 80 OR
+compare-value monitor disk5usage >= 80
 exit
 exit
 
