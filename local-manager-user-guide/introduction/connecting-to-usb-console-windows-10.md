@@ -3,7 +3,7 @@
 
 # Overview
 
-This document details how to open a console connection to an Uplogix Local Manager using a computer running Windows 10.
+This document details how to open a USB console connection to an Uplogix Local Manager using a computer running Windows 10.
 
 First, connect a USB console cable from your Windows 10 machine to the Local Manager mini-USB port.
 
