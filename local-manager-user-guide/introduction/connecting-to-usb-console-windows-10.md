@@ -1,28 +1,31 @@
 <!-- 5.4 -->
 [![1](http://uplogix.com/support/docs/img/Support-Doc-Site-Banner2.png)](http://uplogix.com "Uplogix.com")
 
-Connect the USB cable from your Windows 10 computer to the Local Manager mini-USB port.
+# Overview
 
-# Locate the correct COM port
+This document details how to open a console connection to an Uplogix Local Manager using a computer running Windows 10.
 
-Right click on the Windows Start Icon
+First, connect a USB console cable from your Windows 10 machine to the Local Manager mini-USB port.
 
-![1](http://uplogix.com/support/docs/img/lm-user-guide/Windows10USB-Photo1.png)
+## Locate the correct COM port
 
-Select "Device Manager"
+Right click on the Windows Start Icon and select "Device Manager."
 
-![2](http://uplogix.com/support/docs/img/lm-user-guide/Windows10USB-Photo2.png)
+![1](http://uplogix.com/support/docs/img/lm-user-guide/Windows10USB-Start.png)
 
-Open the "Ports (COM & LPT)" Section
+Open the "Ports (COM & LPT)" Section.
+
 ![3](http://uplogix.com/support/docs/img/lm-user-guide/Windows10USB-Photo3.png)
 
-Locate the "PI USB to Serial" and note which COM port it is using
+Locate the "PI USB to Serial" and note which COM port it is using.
 
-# Open a Putty session.
+## Open a console session
 
-Select "Serial" and change the "Serial line" to match the COM port noted earlier.
+Using PuTTY or other terminal emulator, select "Serial" as the connection type and change the "Serial line" to match the COM port noted earlier. The serial console speed is typically 9600.   
 
 ![4](http://uplogix.com/support/docs/img/lm-user-guide/Windows10USB-Photo4.png)
 
 Click "Open" to connect to the console.
+
+
 
