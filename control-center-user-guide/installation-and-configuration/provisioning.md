@@ -38,12 +38,13 @@ Change emsadmin password? (y/n) [n]
 Commit? (y/n) y
 ```
 
-After committing your changes, the server displays messages as it updates the affected files.
-
-Log out when you are returned to the command line prompt.
+After committing your changes, the server displays messages as it updates the affected files. Once it's complete, you should see this message displayed:
 
 ```
-[emsadmin@UplogixControlCenter ~]$
+-----------------------------------------------------
+When you are ready, run 'ucc chkconfigon' and reboot.
+-----------------------------------------------------
 ```
+Run the command **ucc chkconfigon**.      
 
-If the server's hostname was set or changed, the change does not appear in the command prompt until your next session.
+After that is run, reboot when you are returned to the command line prompt. If the server's hostname was set or changed, the change does not appear in the command prompt until your next session.
