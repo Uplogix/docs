@@ -4,7 +4,7 @@
 
 Appliances are designed to work with a Control Center running the same version of software or higher. The same minor revision is required for full functionality.
 
-**Same Minor Revision:** Full functionality. (4.3.0 & 4.3.2)
+**Same Minor Revision:** Full functionality. (5.4 & 5.4.3)
 
 **Higher Version on Control Center:** Limited functionality (minimal heartbeat only)
 
@@ -24,11 +24,12 @@ The following upgrade paths have been tested and approved by Uplogix. If the min
 
 <div class='warning' />If your Local Manager is not on the minimum version, you will need to upgrade multiple times.</div>
 
-Upgrading from 4.5 or earlier? Read this important [Upgrade Note](/docs/local-manager-kb/software/upgrade-notes-4.6).
+Upgrading from 4.5 or earlier? Read this important [Upgrade Note](https://uplogix.com/docs/knowledge-base/software/upgrade-notes-4.6).
 
-Supported Versions to Upgrade From
+Supported Versions to Upgrade From:
 
-* 5.4 from 5.3, 5.2, 5.1
+* 5.5 from 5.4.3
+* 5.4.3 from 5.3, 5.2, 5.1
 * 5.3 from 5.2, 5.1, 4.7
 * 5.2 from 5.1, 4.7
 * 5.1 from 4.7, 4.6, or 4.5
