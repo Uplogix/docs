@@ -1,5 +1,7 @@
 <!-- 5.4 -->
 
+<div class='warning'>Opening an Uplogix Local Manager will void its warranty. Customers with active maintenance contracts should RMA the Local Manager by contacting Uplogix Support.</div>
+
 Replacing a SynJet air mover is not a procedure typically performed in the field. However, in extreme cases, the guide below can be used to replace a faulty Synjet without having to send back the entire Local Manager for repair.
 
 <div class='danger' />Shut down and remove power before servicing the Uplogix 5000</div>
