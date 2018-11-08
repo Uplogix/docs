@@ -123,7 +123,7 @@ If running the VM with anything other than 8 GB of RAM, the memory settings for 
 
 After powering the VM on, click the **Console** tab.  Once the vUCC has finished booting, log in as user *emsadmin* with password *password*.  You may miss the login prompt as information about the database writes to the console.  If you see *Database “UPLOGIX” warm started*, hit enter once and you will be presented with the login prompt.
 
-To configure static IP addresses for the vUCC and to complete the provisioning process, please continue to [Provisioning](#provisioning). 
+To configure static IP addresses for the vUCC and to complete the provisioning process, please continue to [Provisioning](https://uplogix.com/docs/control-center-user-guide/installation-and-configuration/provisioning).
 
 ![Test](http://uplogix.com/support/docs/img/5.4/vucc/image015.png)
 
