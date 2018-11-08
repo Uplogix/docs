@@ -109,17 +109,6 @@ We recommend that you configure the vUCC for automatic startup and shutdown.  Ve
 
 ![Automatic Startup](http://uplogix.com/support/docs/img/5.4/vucc/image014.png)
 
-# IP Configuration
-
-After powering the VM on, click the **Console** tab.  Once the vUCC has finished booting, login as user *emsadmin* with password *password*.   You may miss the login prompt as information about the database writes to the console.  If you see *Database “UPLOGIX” warm started*, hit enter once and you will be presented with the login prompt.
-
-To configure static IP addresses for the vUCC run the following commands:
-
-* Enter sudo su - and enter *password* when prompted
-* Enter /uplogix/embassy/netSetup.sh and follow the prompts to configure the IP addresses for the vUCC. 
-
-![Test](http://uplogix.com/support/docs/img/5.4/vucc/image015.png)
-
 # Adjusting Memory
 
 If running the VM with anything other than 8 GB of RAM, the memory settings for the vUCC application will need to be changed:
@@ -130,8 +119,11 @@ If running the VM with anything other than 8 GB of RAM, the memory settings for 
 * Type **:wq **to save the file and exit from the editor
 * Restart the vUCC application by entering the commands **ucc stop** and **ucc start**.
 
-# Test
+# IP Configuration
 
-Launch a browser to the first IP address configured to verify successful installation.  The default user name is *administrator* and the default password is *password*.
+After powering the VM on, click the **Console** tab.  Once the vUCC has finished booting, log in as user *emsadmin* with password *password*.  You may miss the login prompt as information about the database writes to the console.  If you see *Database “UPLOGIX” warm started*, hit enter once and you will be presented with the login prompt.
 
-![Test](http://uplogix.com/support/docs/img/5.4/vucc/image016.png)
+To configure static IP addresses for the vUCC and to complete the provisioning process, please continue to [Provisioning](#provisioning). 
+
+![Test](http://uplogix.com/support/docs/img/5.4/vucc/image015.png)
+
