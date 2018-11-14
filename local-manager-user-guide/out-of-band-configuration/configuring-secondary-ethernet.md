@@ -39,7 +39,7 @@ Do you want to commit these changes? (y/n):
 
 ## Using Static IP Addresses
 
-To specify the out-of-band IP address, run **config system secondary again** and set DHCP to no.
+To specify the out-of-band IP address, run **config system secondary** again and set DHCP to n
 
 ```
 [admin@UplogixLM]# config system secondary
@@ -176,4 +176,29 @@ Inactive
 [admin@UplogixLM (modem)]# show status
 Outband: Secondary Ethernet
 Active: address 172.30.52.111, duration 10 minutes
+```
+
+# Disabling Outband Mode
+
+To disable outband mode on Secondary Ethernet, run **config system secondary** from the system resource. When asked for type, use *bonded*.
+
+```
+[admin@UplogixLM]# config system secondary
+--- Existing  Values ---
+Type: outband
+Use DHCP: No
+Management IP: 192.168.1.1
+Default Route: 192.168.1.254
+Subnet Mask: 255.255.255.0
+Speed/duplex: auto (no link)
+MAC Address: 90:0F:2D:00:CB:C3
+Use DNS: no
+Enable Out-of-Band Sharing: no
+Change these? (y/n) [n]: y
+--- Enter New Values ---
+Type [outband]: bonded
+Warning: Remote connections may be lost if you commit changes.
+Do you want to commit these changes? (y/n): y
+
+[admin@UplogixLM]# 
 ```
