@@ -45,6 +45,12 @@ After committing your changes, the server displays messages as it updates the af
 When you are ready, run 'ucc chkconfigon' and reboot.
 -----------------------------------------------------
 ```
-Run the command **ucc chkconfigon**. This command configures services to start up automatically on boot. If it is not run, you will need to manually start services using the "ucc start" command as root after each reboot.      
+Become root and run the command **ucc chkconfigon**. This command configures services to start up automatically on boot. If it is not run, you will need to manually start services using the "ucc start" command as root after each reboot.
+```
+[emsadmin@UplogixControlCenter ~]$ sudo su -
+[sudo] password for emsadmin:
+[root@UplogixControlCenter ~]# ucc chkconfigon
+[root@UplogixControlCenter ~]# 
+```      
 
 After that is run, reboot when you are returned to the command line prompt.
