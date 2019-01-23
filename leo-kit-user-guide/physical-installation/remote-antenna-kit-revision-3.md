@@ -18,7 +18,7 @@ The remote antenna kit should contain:
 
 ![Remove Existing Antenna](https://uplogix.com/support/docs/img/hawk/GPS-Antenna-Placement.jpg)
 
-**2.** Connect the LMR-195 cable to the Iridium antenna. Connect to the larger N-type connector at the bottom of the ADU. 
+**2.** Connect the LMR-195 cable to the Iridium antenna. Connect the opposite end to the larger N-type connector at the bottom of the ADU. 
 
 ![Attach SMA Cable](https://uplogix.com/support/docs/img/hawk/Iridium-Antenna.jpg)
 
