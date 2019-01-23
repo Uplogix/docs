@@ -1,43 +1,40 @@
-<!-- 5.4 -->
+<!-- 5.5 -->
 
-This document details the installation of a Remote Antenna Kit with the Uplogix LEO-I Kit. A remote antenna can be used in situations where the Above Deck Unit's (ADU) built-in antenna is insufficient or if the Above Deck Unit cannot be mounted in a position with clear line-of-sight.
+This document details the installation of a remote antenna kit with the Uplogix LEO-I Kit (Revision 3).
 
 # Unpack the Kit
 
 The remote antenna kit should contain:
 
-* Iridium antenna (the "external" antenna)
-* Black antenna mount
-* 10 ft LMR-400 cable
-* 12" SMA to SMA cable
-* Stainless steel plug
+* Iridium antenna
+* 10 ft LMR-195 cable
+* GPS antenna with fixed 10 ft cable
+* Mounting bracket (2)
 
-# Install new antenna
+# Install the antennas
 
-Disconnect the existing SMA cable from the Iridium modem (**ANT**).
 
-![Remove Existing Antenna](https://uplogix.com/support/docs/img/hawk/rak_remove_antenna.png)
+1. Connect the cable of the GPS antenna to the external side of the N-type connector at the bottom of the ADU.
 
-Connect one end of the new SMA to SMA cable to the Iridium modem (**ANT**).
+![Remove Existing Antenna](https://uplogix.com/support/docs/img/hawk/GPS-Antenna-Placement.jpg)
 
-Connect the other end of the SMA to SMA cable to the top of the N-type connector at the bottom of the ADU.
+2. Connect the LMR-195 cable to the Iridium antenna. Connect to the larger N-type connector at the bottom of the ADU. 
 
-![Attach SMA Cable](https://uplogix.com/support/docs/img/hawk/rak_attach_sma.png)
+![Attach SMA Cable](https://uplogix.com/support/docs/img/hawk/Iridium-Antenna.jpg)
 
-Connect the LMR-400 cable to the external side of the N-type connector at the bottom of the ADU.
 
-![Attach LMR Cable](https://uplogix.com/support/docs/img/hawk/rak_attach_lmr.png)
-
-Connect the LMR-400 cable to the external Iridium antenna.
-
-![Attach Antenna](https://uplogix.com/support/docs/img/hawk/rak_attach_antenna.png)
-
-Mount the antenna in the desired location.
-
-**IMPORTANT**: Make sure to match up the correct holes when screwing into the antenna mount. The below pictures show which holes to use.  
-
-Mount the antenna using 4 each # 6-32 x ¼” Stainless Steel screws (supplied). 
+3. Mount the antenna in the desired location. Use the circled holes in the below picture to attach the
+antenna to the mounting bracket with the screws provided.
 
 ![Mounting Screw Holes](https://uplogix.com/support/docs/img/hawk/Leo-Screw-Holes-01.jpg)
 
-![Mounting Screw Holes](https://uplogix.com/support/docs/img/hawk/Leo-Screw-Holes-02.jpg)
+4. Unscrew the bottom cap of the GPS antenna and thread the wire through the top of the mounting bracket. Thread the cap through the end of the wire and screw back on and mount in desired location.
+
+![GPS Antenna](https://uplogix.com/support/docs/img/hawk/GPS-Antenna.jpg)
+
+Assembled antenna kit:   
+
+![Wiring Complete Unit](https://uplogix.com/support/docs/img/hawk/Wiring-Complete-Unit.jpg)
+
+
+
