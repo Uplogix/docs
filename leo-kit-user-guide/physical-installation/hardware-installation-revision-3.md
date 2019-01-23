@@ -135,10 +135,10 @@ The right side of the BDU (marked **RS422**) connects to the Above Deck Unit (AD
 
 Use the ADU to BDU Communications cable to connect the Local RS-232 ports of the BDU to the Uplogix appliance.
  
-• Connect the DB9 connector to the RS232 modem on the Uplogix appliance.
-• Connect the 12"/CAT5e cable with <span style="color:blue">**BLUE**</span> boot to the Uplogix appliance serial port.
-• Connect the 36"/CAT5e cable with <span style="color:blue">**BLUE**</span> boot to the GPS port on the BDU.
-• Connect the 36"/CAT5e cable with <span style="color:black">**BLACK**</span> boot to the local port on the BDU.
+* Connect the DB9 connector to the RS232 modem on the Uplogix appliance.
+* Connect the 12"/CAT5e cable with <span style="color:blue">**BLUE**</span> boot to the Uplogix appliance serial port.
+* Connect the 36"/CAT5e cable with <span style="color:blue">**BLUE**</span> boot to the GPS 
+* Connect the 36"/CAT5e cable with <span style="color:black">**BLACK**</span> boot to the local port on the BDU.
 
 ### 3. Connect BDU to power
 
