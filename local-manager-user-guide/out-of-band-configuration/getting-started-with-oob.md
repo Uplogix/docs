@@ -115,6 +115,7 @@ Here's what each setting does:
 | rings <number> | Specifies the number of rings before the call is answered. Default value is 3.
 | [no] ringback | When enabled, the Local Manager ignores an incoming call until it hangs up. If the user calls back within a specified amount of time, the Local Manager answers the call. |
 | [no] pulse | Enables dial-in on Pulse failure. Overrides *enable* setting. |
+| [no] logrings | Enables inbound call attempts
 | [no] encryption [required] | Enables dial-in encryption |
 | [no] number {system phone number} | Stores the phone number of the modem. Used with satellite/cellular modems for SMS-initiated PPP. |
 | [no] domain {SMS domain name} | Stores the email-to-text domain of the modem. Used with satellite/cellular modems for SMS-initiated PPP. |
