@@ -16,7 +16,7 @@ This sections provides cable pin-outs for connecting the Local Manager to some c
 
 This pin-out is typically used when connecting an Uplogix Local Manager to your computer's DB-9 serial port.
 
-![RJ-45 to DB-9 Adapter](http://uplogix.com/support/docs/img/lm-user-guide/Uplogix-Pinout-DCE-Adapter-RJ-45-to-DB-9.png)
+![RJ-45 to DB-9 Adapter](http://uplogix.com/support/docs/img/lm-user-guide/Pinout-RJ45-DB9.jpg)
 
 ## DCE Adapter - RJ-45 to DB-25
 
