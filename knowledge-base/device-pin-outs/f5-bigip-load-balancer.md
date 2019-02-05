@@ -16,7 +16,7 @@ The typical pinout for a standard DB-9 to RJ-45 is:
 
 The BigIP machine is looking for carrier detect on pin 1 of the DB-9. Since this pin is empty in the normal configuration, it needs to be wired into an electrical signal so that the BigIP will see carrier detect and provide the login prompt.
 
-You can modify this adapter by removing the wire from pin 6 of the DB-9 adapter and placing in pin 1.
+You can modify this DB-9 adapter by removing the wire from pin 6 and placing in pin 1.
 
 ![RJ-45 to DB-9 Adapter](http://uplogix.com/support/docs/img/lm-user-guide/DB-9-Pin-1-Adapter-01.jpg)
 
