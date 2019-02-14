@@ -29,6 +29,12 @@ Prepare to have available disk (see [Requirements](#requirements)), two IP addre
 * CPU cores may be adjusted without any changes to Uplogix configuration files.  Recommendations are specified above, but you may increase or decrease the number of cores based on your performance desires.  A restart of the VM is all that is needed after you change your VM properties.
 * Memory may also be adjusted, but you must update an Uplogix configuration file - see [Adjusting Memory](#adjusting-memory).
 
+### ESXi Version 6.5 and 6.7 Browser Deployment
+
+There is a known issue deploying and exporting “large” VMs with the ESXi web client in early versions of 6.5 and 6.7.  If you try to deploy the Control Center VM using a browser and it fails about half way through, we recommend using the command line VMware OVF Tool.  This tool is actively maintained and supports ESXi 6.5 and 6.7.  You can download it from VMware (https://www.vmware.com/support/developer/ovf/).  This deployment issue appears to be fixed in ESXi 6.7.0 Update 1.  Please contact Uplogix Support if you have any question about using the OVF Tool.
+
+
+
 # Deployment
 
 Connect to your VM host and select **File > Deploy OVF Template...**.  Although this menu item says OVF, it will let you select OVA files as well.  An OVA file is just a package of the OVF file and VMDK files in the TAR format.
