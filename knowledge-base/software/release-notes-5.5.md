@@ -49,7 +49,7 @@ The operating system of the Local Manager has been rebuilt to use the latest emb
 
 ## New Features and Improvements
 
-### (5.5.1) New Feature: Integration of Uplogix Terminal Windows application
+### **(5.5.1)** New Feature: Integration of Uplogix Terminal Windows application
 
 
 * Some users may require this patch if using Java 11(+) since Java 11 drops support for JNLP.  Oracle ended public updates for Java 8 for commercial users on January 2019.  Some users  may choose to extend support of Java 8 by working with Oracle.
