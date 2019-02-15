@@ -35,6 +35,11 @@ The operating system of the Local Manager has been rebuilt to use the latest emb
 * Improved date consistency in 'Change' reports.
 * Improved login responsiveness after a reboot.
 * Addressed many Common Vulnerabilities and Exposures (CVEs). Consult the [CVE Database](https://uplogix.com/docs/cve) for more information.
+* (**5.5.1**) Updated Server Tech Sentry driver to better support v8.0 of its CLI.
+* (**5.5.1**) Security patch for "Zip Slip" vulnerability.
+* (**5.5.1**) Fix to handle dropped connection to LM from Terminal application when forwarding ports.
+* (**5.5.1**) Fix for "deny all" permission when used with IPv6.
+
 
 ## Known Issues in This Release
 
@@ -43,6 +48,17 @@ The operating system of the Local Manager has been rebuilt to use the latest emb
 # Uplogix Control Center (UCC)
 
 ## New Features and Improvements
+
+### (5.5.1) New Feature: Integration of Uplogix Terminal Windows application
+
+
+* Some users may require this patch if using Java 11(+) since Java 11 drops support for JNLP.  Oracle ended public updates for Java 8 for commercial users on January 2019.  Some users  may choose to extend support of Java 8 by working with Oracle.
+* Users can benefit from the Windows Installer as it decouples the Terminal application from requiring Java on the client's system.  The Uplogix Terminal application is a Windows installer that wraps the JNLP (applet) code as an installed Windows application that bundles Java with it.  This allows a user to continue running older versions of Java (e.g. 7) for legacy applications and also run the Uplogix Terminal application with the latest supported version of Java that Uplogix bundles with each release.
+* By default, the 5.5.1 patch will continue to use JNLP and a user will not be required to make any changes.  The user  may also download the Windows Installer and use it with JNLP.  A user can change the default to UNLP by editing embassy.overrides to include TERMINAL_LAUNCH=unlp.  This allows the Windows Terminal application to automatically associate and launch UNLP files without impacting any files association for JNLP the user may already have.
+* Users can download the Windows Installer (MSI) from their profile page.
+* The Windows Terminal application adds several benefits over default JNLP including status icons in the taskbar and a history of recent connections.
+* The Windows Terminal application is also signed with an EV certificate so that user and Windows can trust the installer is safe.
+
 
 ### New Feature: IKEv2 VPN Support
 
@@ -68,6 +84,10 @@ The Control Center now shows a warning message under the 'Administration' tab if
 * Improved performance of the 'Inventory' page.
 * Added IPT SLV reports that can be run from the inventory or at a system level.
 * Addressed many Common Vulnerabilities and Exposures (CVEs). Consult the [CVE Database](https://uplogix.com/docs/cve) for more information.
+* **(5.5.1)** Security patches for the operating system.
+* **(5.5.1)** Fix for "become-standby" bug that thought Tomcat was always running.
+* **(5.5.1)** Fix for 5.5.0 bug where SSH applet application would break if compression was enabled.
+
 
 ## Known Issues in This Release
 
@@ -79,3 +99,7 @@ The Control Center now shows a warning message under the 'Administration' tab if
 ## Version 5.5.0
 * Release Date: 5/7/2018
 * Build Number: 32896
+
+## Version 5.5.1
+* Release Date: 2/15/2019
+* Build Number: 34099
