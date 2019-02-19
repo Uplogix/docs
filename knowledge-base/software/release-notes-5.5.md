@@ -43,7 +43,7 @@ The operating system of the Local Manager has been rebuilt to use the latest emb
 
 ## Known Issues in This Release
 
-* Version 5.5 only supports the 500, 5000, and virtual Local Manager platforms.  Previous EOL models may continue to minimally heartbeat to the Control Center.
+* Version 5.5+ only supports the 500, 5000, and virtual Local Manager platforms.  Previous EOL models may continue to minimally heartbeat to the Control Center.
 
 # Uplogix Control Center (UCC)
 
@@ -54,10 +54,10 @@ The operating system of the Local Manager has been rebuilt to use the latest emb
 
 * Some users may require this patch if using Java 11(+) since Java 11 drops support for JNLP.  Oracle ended public updates for Java 8 for commercial users on January 2019.  Some users  may choose to extend support of Java 8 by working with Oracle.
 * Users can benefit from the Windows Installer as it decouples the Terminal application from requiring Java on the client's system.  The Uplogix Terminal application is a Windows installer that wraps the JNLP (applet) code as an installed Windows application that bundles Java with it.  This allows a user to continue running older versions of Java (e.g. 7) for legacy applications and also run the Uplogix Terminal application with the latest supported version of Java that Uplogix bundles with each release.
-* By default, the 5.5.1 patch will continue to use JNLP and a user will not be required to make any changes.  The user  may also download the Windows Installer and use it with JNLP.  A user can change the default to UNLP by editing embassy.overrides to include TERMINAL_LAUNCH=unlp.  This allows the Windows Terminal application to automatically associate and launch UNLP files without impacting any files association for JNLP the user may already have.
+* By default, the 5.5.1 patch will continue to use JNLP and a user will not be required to make any changes.  The user  may also download the Windows Installer and use it with JNLP.  A user can change the default to UNLP by editing embassy.overrides to include TERMINAL_LAUNCH=unlp.  This allows the Windows Terminal application to automatically associate and launch UNLP files without impacting any file association for JNLP the user may already have.
 * Users can download the Windows Installer (MSI) from their profile page.
 * The Windows Terminal application adds several benefits over default JNLP including status icons in the taskbar and a history of recent connections.
-* The Windows Terminal application is also signed with an EV certificate so that user and Windows can trust the installer is safe.
+* The Windows Terminal application is also signed with an EV certificate so that users and Windows can trust the installer is safe.
 
 
 ### New Feature: IKEv2 VPN Support
