@@ -35,7 +35,7 @@ The operating system of the Local Manager has been rebuilt to use the latest emb
 * Improved date consistency in 'Change' reports.
 * Improved login responsiveness after a reboot.
 * Addressed many Common Vulnerabilities and Exposures (CVEs). Consult the [CVE Database](https://uplogix.com/docs/cve) for more information.
-* (**5.5.1**) Updated Server Tech Sentry driver to better support v8.0 of its CLI.
+* (**5.5.1**) Updated ServerTech Sentry driver to better support v8.0 of its CLI.
 * (**5.5.1**) Security patch for "Zip Slip" vulnerability.
 * (**5.5.1**) Fix to handle dropped connection to LM from Terminal application when forwarding ports.
 * (**5.5.1**) Fix for "deny all" permission when used with IPv6.
