@@ -57,7 +57,7 @@ server 203.0.113.201 key 1
 restrict 203.0.113.201 notrust
 
 keys /etc/ntp.keys
-trusted key 1
+trustedkey 1
 ```
 Press ESC, then type **:wq** to save the file.
 
