@@ -38,11 +38,11 @@ If your UCC has access to the internet, we may be able to directly download the 
 
 Our software downloads are located here: [uplogix.com/support/account](http://uplogix.com/support/account/)
 
-The upgrade files are located in the folder of the latest LMS version (currently 5.5.0).
+The upgrade files are located in the folder of the latest LMS version (currently 5.5.1).
 
-For the UCC upgrade, we will need the **embassy.tar.gz** and the **osUpdates6-5.5-uplogix.50.0.cc32896.el5.i386.rpm** files. The **UplogixOS-5.5.32896-genericx86.bin** file will be needed later when we upgrade the individual Local Managers.
+For the UCC upgrade, we will need the **embassy.tar.gz** and the **osUpdates6-5.5-uplogix.50.0.cc34099.el5.i386.rpm** files. The **UplogixOS-5.5.1.34099-genericx86.bin** file will be needed later when we upgrade the individual Local Managers.
 
-> **Important**: The latest version of software (v5.5.0) will not run on EOL Local Managers, including the Uplogix 400, 430, and 3200.
+> **Important**: The latest version of software (v5.5.1) will not run on EOL Local Managers, including the Uplogix 400, 430, and 3200.
 
 > Customers on older versions of the UCC (v5.3 or older) will need to have the UCC upgraded in steps to get to v5.5, and will require additional upgrade files. Please contact Uplogix Support for information on what files are needed prior to the upgrade.        
 
