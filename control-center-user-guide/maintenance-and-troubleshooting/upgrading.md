@@ -22,7 +22,7 @@ Prior to the scheduled upgrade time, we will send a link to a Webex meeting. Thi
 
 Please ensure the UCC has IP connectivity and is reachable from your workstation. It is likely we will need to reboot the sever during the install process, so please plan the downtime accordingly.
 
-**Average downtime of the UCC during a 5.5 upgrade is 30-60 minutes.**
+**Average downtime of the UCC during a 5.5.1 upgrade is 30-60 minutes.**
 
 # Verify emsadmin access
 
@@ -44,7 +44,7 @@ For the UCC upgrade, we will need the **embassy.tar.gz** and the **osUpdates6-5.
 
 > **Important**: The latest version of software (v5.5.1) will not run on EOL Local Managers, including the Uplogix 400, 430, and 3200.
 
-> Customers on older versions of the UCC (v5.3 or older) will need to have the UCC upgraded in steps to get to v5.5, and will require additional upgrade files. Please contact Uplogix Support for information on what files are needed prior to the upgrade.        
+> Customers on older versions of the UCC (v5.3 or older) will need to have the UCC upgraded in steps to get to v5.5.1, and will require additional upgrade files. Please contact Uplogix Support for information on what files are needed prior to the upgrade.        
 
 
 If you have questions regarding our upgrade process, please feel free to [contact us](mailto:support@uplogix.com).
