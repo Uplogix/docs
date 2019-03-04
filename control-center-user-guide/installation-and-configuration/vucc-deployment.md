@@ -133,3 +133,11 @@ To configure static IP addresses for the vUCC and to complete the provisioning p
 
 ![Test](http://uplogix.com/support/docs/img/5.4/vucc/image015.png)
 
+
+# Virtual Machine Version
+
+Uplogix configures the Control Center to use VM version 7 for backwards compatibility to ESXi version 4.1. You may optionally upgrade the VM version to match the version of ESXi in your environment. VMware recommends creating a snapshot or backup before upgrading in case there are issues post upgrade. In older versions of ESXi, you may need to use vCenter to convert the image to a newer version. In newer versions of ESXi, you can use the web client to upgrade the VM while it is powered down (**Actions > Upgrade VM Compatibility**). Uplogix has tested most of the versions including version 14 running on ESXi 6.7.
+
+Updating the VM version will also enable you to update the Guest OS associated with the VM (**Edit > VM Options > General Options > Guest OS Version**). Any version of the Control Center after 5.4.0 uses CentOS 6 (64-bit).
+
+Please contact Uplogix Support if you have any question about configuring the VM version or Guest OS.
