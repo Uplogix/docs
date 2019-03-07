@@ -14,7 +14,7 @@ Most licenses are installed prior to shipment, but if you need to update the lic
 
 # Getting your license
 
-To view your current license, visit your account page at [http://uplogix.com/support/account](http:/uplogix.com/support/account) and scroll down to *Control Center License*. If your license is missing, contact Uplogix Support to have it added.
+If you do not have an updated or recently purchased license, please contact Uplogix Support to have it added.
 
 A typical UCC license:
 
