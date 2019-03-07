@@ -14,7 +14,7 @@ Most licenses are installed prior to shipment, but if you need to update the lic
 
 # Getting your license
 
-If you do not have an updated or recently purchased license, please contact Uplogix Support to have it added.
+If you do not have an updated or recently purchased license, Uplogix Support can provide it to you.
 
 A typical UCC license:
 
