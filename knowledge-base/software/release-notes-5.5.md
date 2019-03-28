@@ -39,6 +39,7 @@ The operating system of the Local Manager has been rebuilt to use the latest emb
 * (**5.5.1**) Security patch for "Zip Slip" vulnerability.
 * (**5.5.1**) Fix to handle dropped connection to LM from Terminal application when forwarding ports.
 * (**5.5.1**) Fix for "deny all" permission when used with IPv6.
+* (**5.5.2**) Fix to handle SSH timeout during part of the handshaking process on slow networks when using some clients.
 
 
 ## Known Issues in This Release
@@ -54,7 +55,7 @@ The operating system of the Local Manager has been rebuilt to use the latest emb
 
 * Some users may require this patch if using Java 11(+) since Java 11 drops support for JNLP.  Oracle ended public updates for Java 8 for commercial users on January 2019.  Some users  may choose to extend support of Java 8 by working with Oracle.
 * Users can benefit from the Windows Installer as it decouples the Terminal application from requiring Java on the client's system.  The Uplogix Terminal application is a Windows installer that wraps the JNLP (applet) code as an installed Windows application that bundles Java with it.  This allows a user to continue running older versions of Java (e.g. 7) for legacy applications and also run the Uplogix Terminal application with the latest supported version of Java that Uplogix bundles with each release.
-* By default, the 5.5.1 patch will continue to use JNLP and a user will not be required to make any changes.  The user  may also download the Windows Installer and use it with JNLP.  A user can change the default to UNLP by editing embassy.overrides to include TERMINAL_LAUNCH=unlp.  This allows the Windows Terminal application to automatically associate and launch UNLP files without impacting any file association for JNLP the user may already have.
+* By default, the 5.5.1 patch will continue to use JNLP and a user will not be required to make any changes.  The user  may also download the Windows Installer and use it with JNLP.  A user can change the default to UNLP for all users by editing embassy.overrides to include TERMINAL_LAUNCH=unlp.  This allows the Windows Terminal application to automatically associate and launch UNLP files without impacting any file association for JNLP the user may already have.
 * Users can download the Windows Installer (MSI) from their profile page.
 * The Windows Terminal application adds several benefits over default JNLP including status icons in the taskbar and a history of recent connections.
 * The Windows Terminal application is also signed with an EV certificate so that users and Windows can trust the installer is safe.
@@ -87,6 +88,9 @@ The Control Center now shows a warning message under the 'Administration' tab if
 * **(5.5.1)** Security patches for the operating system.
 * **(5.5.1)** Fix for "become-standby" bug that thought Tomcat was always running.
 * **(5.5.1)** Fix for 5.5.0 bug where SSH applet application would break if compression was enabled.
+* **(5.5.2)** Security patches for the operating system (bind, kernel, ntp, yum).
+* **(5.5.2)** Fix for French keyboard tilde (and other dead keys) being recognized by the Uplogix Terminal application.
+* **(5.5.2)** Fix for timeout issue with Cisco 890 series routers used as modem access server.
 
 
 ## Known Issues in This Release
@@ -96,6 +100,7 @@ The Control Center now shows a warning message under the 'Administration' tab if
 
 # Release Dates and Build Numbers
 
+
 ## Version 5.5.0
 * Release Date: 5/7/2018
 * Build Number: 32896
@@ -103,3 +108,7 @@ The Control Center now shows a warning message under the 'Administration' tab if
 ## Version 5.5.1
 * Release Date: 2/15/2019
 * Build Number: 34099
+
+## Version 5.5.2
+* Release Date: 3/27/2019
+* Build Number: 34294
