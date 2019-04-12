@@ -1,4 +1,4 @@
-<!-- 5.4 -->
+<!-- 5.5.2 -->
 
 When a connected device is initialized as hp, sun, or server using the **config init** command, the service processor commands become available to help automate server management.
 
