@@ -12,12 +12,12 @@ Service processor enabled: false
 Change these? (y/n) [n]: y
 --- Enter New Values ---
 Enable service processor (y/n) [n]: y
-Service processor use dedicated (y/n) [n]: y
+Service processor host IP: 10.10.10.2
 Service processor IPMI port [623]:
-Service processor username []: solar2
-Service processor password: *******
-Confirm Password: *******
-Service processor connection type: [auto]:
+Service processor username: solar2
+Service processor password: ********
+Confirm Password: ********
+Service processor connection type [auto]:
 Do you want to commit these changes? (y/n): y
 ```
 
