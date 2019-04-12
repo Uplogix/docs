@@ -1,6 +1,6 @@
 <!-- 5.5.2 -->
 
-<div class='ucc' />Inventory > Local Manager (or Group) summary page > Network > Protocols</div>
+Inventory > Local Manager (or Group) summary page > Network > Protocols
 
 By default, the Local Manager allows users to connect via SSH to TCP port 22 only. The Local Manager can be configured to also allow Telnet connections.
 
