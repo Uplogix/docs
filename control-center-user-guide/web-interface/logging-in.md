@@ -5,7 +5,7 @@ Your browser is likely to present a strong warning stating that the site’s sec
  	
 The browser displays the login screen.
  
- ![UCC Login Window](http://uplogix.com/support/docs/img/5.4/uplogix-control-center-login-window.png)
+ ![UCC Login Window](http://uplogix.com/support/docs/img/uplogix-control-center-login-window-5.5.jpg)
  
 The default username is: **administrator**
 
