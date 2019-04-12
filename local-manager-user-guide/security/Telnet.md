@@ -1,4 +1,4 @@
-<!-- 5.4 -->
+<!-- 5.5.2 -->
 
 <div class='ucc' />Inventory > Local Manager (or Group) summary page > Network > Protocols</div>
 
