@@ -23,6 +23,6 @@ Run **sudo su -** to become root and load its environment. Use emsadmin's passwo
 
 # Caution
 
-As root, you have the ability to add/remove/change software on the Control Center. Unexpected software make conflict with Uplogix software and cause the Control Center to stop working. Any software not mentioned in Uplogix documentation is considered unsupported.
+As root, you have the ability to add/remove/change software on the Control Center. Unexpected software may conflict with Uplogix software and cause the Control Center to stop working. Any software not mentioned in Uplogix documentation is considered unsupported.
 
 
