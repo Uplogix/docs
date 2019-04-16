@@ -1,4 +1,4 @@
-<!-- 5.4 -->
+<!-- 5.5 -->
 
 # Overview
 
@@ -21,7 +21,7 @@ To return to the system resource from another resource, use the **exit** command
 | powercontrol | Use to configure and manage an external power controller and map its outlets to devices managed by the Local Manager. | powercontrol (from the system resource)|
 | modem	| Use to configure embedded and external modems and related settings. | modem (from the system resource) |
  
-> **NEW FOR 5.4** - The reserved ***powercontrol*** keyword and related resource have been removed. Any port on the Local Manager can now be used as a power controller.
+> **LMS v5.4 and later** - The reserved ***powercontrol*** keyword and related resource have been removed. Any port on the Local Manager can now be used as a power controller.
  
 # Opening and closing a CLI session
 
@@ -293,17 +293,17 @@ The **history** command displays up to the last 20 commands (if available) from 
 
 ```
 [admin@UplogixLM]# history
-modem
-config init
-show ?
-show alarms
-history
+1. modem
+2. config init
+3. show ?
+4. show alarms
+5. history
 ```
 
 To execute a listed command, enter ! followed by the command number.
 
 ```
-[admin@UplogixLM]# !5
+[admin@UplogixLM]# !4
 show alarms
 There are no alarms right now.
 ```
