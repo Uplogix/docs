@@ -10,8 +10,8 @@ To configure terminal pass-through, navigate to the desired resource and use the
 config protocols pass-through <enable | disable> <telnet | ssh> [“port number”]
 
 admin@UplogixLM (port1/1)]# config protocols pass-through enable ssh
-Pass-through port will be 2001.
-SSH port change will take place after the next Uplogix restart.
+Pass-through port will be 2101.
+SSH port change will take place after the next system restart.
 ```
 
 By default, device ports map to TCP ports starting at 2001. Alternate TCP ports (1023 – 9999) may be specified if desired.
