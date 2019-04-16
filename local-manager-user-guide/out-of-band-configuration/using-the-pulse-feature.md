@@ -1,4 +1,4 @@
-<!-- 5.4 -->
+<!-- 5.5 -->
 
 <div class='ucc' />Inventory > Local Manager Summary > Out-of-Band > Pulse</div>
 
@@ -20,29 +20,34 @@ Use the **config system pulse** command to enter the settings.
 
 ```
 [admin@UplogixLM]# config system pulse
---- Existing Values --- 
-Use Pulse: false 
-Pulse Server IP 1: 127.0.0.1 
-Pulse Server Port: 7 
-Enable Outband on Pulse Failure: no 
+--- Existing  Values ---
+Use Pulse: false
+Pulse Server IP 1: 127.0.0.1
+Pulse Server Port 1: 7
+Pulse Server IP 2: 127.0.0.1
+Pulse Server Port 2: 7
+Pulse Server IP 3: 127.0.0.1
+Pulse Server Port 3: 7
+Enable Out-of-Band on Pulse Failure: no
 Change these? (y/n) [n]: y
---- Enter New Values --- 
+--- Enter New Values ---
 Use Pulse (y/n) [n]: y
-Pulse IP 1: [127.0.0.1]: 203.0.113.225
-Pulse Port 1: [7]: 
-Pulse IP 2: [127.0.0.1]: 203.0.113.226
-Pulse Port 2: [7]: 
-Pulse IP 3: [127.0.0.1]: 198.51.100.225
-Pulse Port 3: [7]: 
-Enable Outband on Pulse Failure (y/n) [n]: y
-Remain Out-of-Band after Pulse Success (y/n) [n]: 
-Maximum Time Out-of-Band (0 means unlimited) [0]: 
+Pulse IP 1 [172.30.5.44]: 203.0.113.225
+Pulse Port 1 [7]:
+Pulse IP 2 [127.0.0.1]: 203.0.113.226
+Pulse Port 2 [7]:
+Pulse IP 3 [127.0.0.1]: 198.51.100.225
+Pulse Port 3 [7]:
+Enable Out-of-Band on Pulse Failure (y/n) [n]: y
+Remain Out-of-Band after Pulse Success (y/n) [n]:
+Maximum Time Out-of-Band (minutes; 0 means indefinite) [0]:
 Do you want to commit these changes? (y/n): y
+
 ```
 
-If you do not want the Local Manager to automatically initiate an out-of-band connection on Pulse failure, be sure to answer **n** to the *Enable Outband on Pulse Failure (y/n)* question.
+If you do not want the Local Manager to automatically initiate an out-of-band connection on Pulse failure, be sure to answer **n** to the *Enable Out-of-Band on Pulse Failure (y/n)* question.
 
-If you want the Local Manager to remain out-of-band for some period of time after Pulse starts succeeding again (not a common configuration), be sure to answer **y** to *Remain Out-of-Band after Pulse Success (y/n)* and then indicate how long the Local Manager should remain out-of-band after Pulse starts succeeding again by specifying a time period in minutes to the *Maximum Time Out-of-Band (0 means unlimited)* question.  This configuration can be useful when configuring the WAN Traffic Failover feature if the router is not configured to block the Local Manager Pulse traffic from being forwarded over the Local Manager's cellular network connection.
+If you want the Local Manager to remain out-of-band for some period of time after Pulse starts succeeding again (not a common configuration), be sure to answer **y** to *Remain Out-of-Band after Pulse Success (y/n)* and then indicate how long the Local Manager should remain out-of-band after Pulse starts succeeding again by specifying a time period in minutes to the *Maximum Time Out-of-Band (minutes; 0 means indefinite)* question.  This configuration can be useful when configuring the WAN Traffic Failover feature if the router is not configured to block the Local Manager Pulse traffic from being forwarded over the Local Manager's cellular network connection.
 
 The Pulse server’s echo application should comply with RFC 862 such as those provided with Microsoft Windows 2000 Server or Red Hat Linux 7.3.
 
