@@ -36,12 +36,13 @@ To view the current environmental readings, use the **show environment** command
 
 ```
 [admin@UplogixLM]# show environment
-Current temperature: 0.00 degrees F
-Current humidity:    0.00%
-Average temperature over the last hour: 0.00 degrees F
-Average humidity over the last hour:    0.00%
+Current temperature: 77.46 degrees F
+Current humidity:    38.72%
+Average temperature over the last hour: 80.22 degrees F
+Average humidity over the last hour:    38.16%
 Power supply status: Power 2 inactive
 Primary Ethernet status:   Link up
-Secondary Ethernet status: Link down
+Secondary Ethernet status: Link down ; interface down
 Tertiary Ethernet status:  Not Installed
+
 ```
