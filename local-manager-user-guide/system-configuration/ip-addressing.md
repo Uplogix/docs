@@ -74,15 +74,18 @@ To change IPv6 settings, use the **config system ipv6** command.
 
 ```
 [admin@UplogixLM]# config system ipv6
---- Existing Values ---
+--- Existing  Values ---
 Mode: autoconf
-Management IP: 2001:470:b861:20:20f:2cff:fe00:73a0/64
+Management IP: 2001:470:b851:500:20f:2cff:fe00:cbc2/64
 Default Route:
+
 Change these? (y/n) [n]: y
 --- Enter New Values ---
-Mode: [autoconf]: static
-Management IPv6: [2001:470:b861:20:20f:2cff:fe00:73a0/64]: 2001:470:b861:20:0:0:0:51/64
-Default Route: []: 2001:470:b861:20::1
+Mode [autoconf]: static
+Management IPv6 [2001:470:b851:500:20f:2cff:fe00:cbc2/64]: 2001:470:b861:20:0:0:0:51/64
+Default Route: 2001:470:b861:20::1
+Warning: Remote connections may be lost if you commit changes.
+Do you want to commit these changes? (y/n): y
 ```
 
 > Not all product features support the use of IPv6.
