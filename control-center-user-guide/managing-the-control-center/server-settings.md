@@ -3,7 +3,7 @@
 
 Server settings can be accessed from the Administration tab on the main navigation bar. It is the default view presented when the Administration link is clicked.
 
-![Uplogix Control Center Administration Server Settings](http://uplogix.com/support/docs/img/5.4/uplogix-control-center-administration-server-settings.png)
+![Uplogix Control Center Administration Server Settings](http://uplogix.com/support/docs/img/UCC-Administration-5.5.2.jpg)
 
 Once settings have been changed, click **Save** in the upper right or lower right to save the new settings.
 
@@ -14,7 +14,7 @@ This section provides the following information:
 * IP - IP address of the Control Center
 * Hostname - Hostname of the Control Center
 * Version - Currently installed software version
-* Build ID - Denotes the build ID of the currently installed software version (there can be multiple version of 5.4 before a final *generally available* version is released.)
+* Build ID - Denotes the build ID of the currently installed software version (there can be multiple version of 5.5 before a final *generally available* version is released.)
 * Install Date - When the software was installed
 * Standby Status - Denotes the status of High Availability Control Centers
 	* not configured
@@ -22,16 +22,17 @@ This section provides the following information:
 	* out of sync
 	* in sync
 * License Support - Lists the number of systems and virtual ports allowed by the currently installed license.
+* (**v5.5.1** or later) Terminal Launch - Denotes file type used for [Uplogix Terminal App](https://uplogix.com/docs/control-center-user-guide/applet/terminal-app "Uplogix Terminal App").  
 
 # Basic Settings
 
-![Uplogix Control Center Server Settings Basic Settings](http://uplogix.com/support/docs/img/5.4/uplogix-control-center-server-settings-basic-settings.png)
+![Uplogix Control Center Login Page](http://uplogix.com/support/docs/img/UCC-Basic-Settings-5.5.2-2.jpg)
 
 ## Login Banner
 
 Specify the text to display in the Control Center login screen. Line breaks entered in this text box are ignored. 
 
-![Uplogix Control Center Login Page](http://uplogix.com/support/docs/img/5.4/uplogix-control-center-login-window-customized.png)
+![Uplogix Control Center Login Page](http://uplogix.com/support/docs/img/uplogix-control-center-login-window-5.5.jpg)
 
 Use only printing characters in the banner and other text fields. Spaces are considered printing characters.
 
@@ -95,6 +96,3 @@ SNMP MIB definitions are available under /home/emsadmin on the Control Center.
                                 FROM SNMPv2-TC;
 ```
 
-# Send Logs
-
-The Control Center can send diagnostic logs to a specified email address for troubleshooting. This feature requires configuring of [Mail Settings](http://uplogix.com/docs/control-center-user-guide/managing-the-control-center/mail-settings).
