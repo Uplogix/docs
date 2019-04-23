@@ -22,7 +22,7 @@ This section provides the following information:
 	* out of sync
 	* in sync
 * License Support - Lists the number of systems and virtual ports allowed by the currently installed license.
-* (**v5.5.1** or later) Terminal Launch - Denotes file type used for [Uplogix Terminal App](https://uplogix.com/docs/control-center-user-guide/applet/terminal-app "Uplogix Terminal App").  
+* (**v5.5.1** or later) Terminal Launch - Denotes file type used for [Uplogix Terminal App](https://uplogix.com/docs/control-center-user-guide/applet/terminal-app "Uplogix Terminal App") 
 
 # Basic Settings
 
