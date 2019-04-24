@@ -4,7 +4,7 @@ When licensed for each Local Manager, the Service Level Verification (SLV) modul
 
 You can use SLV to execute Voice over IP (VoIP) calls, web transactions, and TCP SYN/ACK handshakes to verify end-to-end network functionality.
 
-This topic focuses on the activation, configuration, and usage of SLV in a Local Manager CLI enviroment. 
+This topic focuses on the activation, configuration, and usage of SLV in a Local Manager CLI environment. 
 
 # Service Level Verification Tests
 
@@ -12,7 +12,7 @@ There are three types of SLV tests available:
 
 ## Web-based Transactions
 
-This test performs an HTTP request from the Local Manager to a remote destination. DNS lookup, connection setup time, time to first byte, and time to laste byte are measured. Also collected are the HTTP result code and the first 1,024 bytes of HTML for further validation testing.
+This test performs an HTTP request from the Local Manager to a remote destination. DNS lookup, connection setup time, time to first byte, and time to last byte are measured. Also collected are the HTTP result code and the first 1,024 bytes of HTML for further validation testing.
 
 ## TCP/IP SYN/ACK
 
@@ -20,7 +20,7 @@ Often called a TCP handshake, the round-trip connection establishment process mo
 
 ## VoIP / IP Telephony (IPT)
 
-For IPT environments, the Local Manager captures 47 specific RTP Control Protocol (TRCP) metrics that characterize the network's ability to transport VoIP traffic. Pre-encoded voice calls with phonetically balanced Harvard sentences are used to guage VoIP performance. Metrics suchs as jitter, latency, packet loss, MOS scores, and R values can be evaluated by the Local Manager's rules engine.
+For IPT environments, the Local Manager captures 47 specific RTP Control Protocol (TRCP) metrics that characterize the network's ability to transport VoIP traffic. Pre-encoded voice calls with phonetically balanced Harvard sentences are used to gauge VoIP performance. Metrics such as jitter, latency, packet loss, MOS scores, and R values can be evaluated by the Local Manager's rules engine.
 
 # Installing an SLV License
 
