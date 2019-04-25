@@ -73,39 +73,7 @@ If you are using a Control Center, enable management of the u5000 with the **con
 
 On the Control Center, use the Replace button on the previous Local Manager before assigning the replacement into an Inventory group.
 
-## Replacing a u400
 
-Plug in your u400 and configure its network settings from the CLI using the console cable. If you are using a Control Center, go ahead and point the u400 at it now, using the **config system management** command from the CLI.
-
-On the Control Center, use the Replace button on the previous Local Manager before assigning the replacement into an Inventory group.
-
-## Replacing a 3200
-
-First, make sure your original and replacement Local Managers are powered off and unplugged from any power source.
-
-Next, remove the option cards from the defective unit using the thumbscrews.
-
-Once the option cards are removed, install in replacement Local Manager.
-
-You may now plug in your u3200.
-
-Now, you will configure the appliance’s network settings, with either the Front Panel LCD or the CLI via the console port.
-
-On the Control Center, use the Replace button on the previous Local Manager before assigning the replacement into an Inventory group.
-
-## Replacing a u430:
-
-Make sure your Local Manager is powered off and unplugged from any power source.
-
-Remove the modem from the previous Local Manager by removing the four screws holding the modem faceplate.
-
-Carefully remove the modem from the modem bay and install in replacement Local Manager.
-
-Confirm your u430 is on the correct software version using the command **show version**.
-
-You may now plug in your u430 and configure its network settings from the CLI via the console port. If you are using a Control Center, go ahead and point the u430 at it now, using the command, **config system management** from the CLI.
-
-On the Control Center, use the Replace button on the previous Local Manager before assigning the replacement into an Inventory group.
 
 ## Replacing a u500
 
