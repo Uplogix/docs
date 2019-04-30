@@ -38,7 +38,7 @@ An XML file should only be loaded onto a Local Manager running the same software
 [admin@UplogixLM]# show config
 <?xml version="1.0" encoding="UTF-8"?>
 <EnvoyConfiguration>
-    <version>5.2</version>
+    <version>5.5</version>
     <roles>
         <role>
             <name>admin</name>
