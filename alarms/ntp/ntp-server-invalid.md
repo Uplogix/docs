@@ -1,6 +1,6 @@
 # Description
 
-The Uplogix Control Center and Local managers rely on NTP (Network Protocol Time) to keep their clocks in sync. This alarm is an indication that the appliance is not able to contact a valid NTP server or the NTP settings are not configured correctly.
+The Uplogix Control Center and Local managers rely on NTP (Network Time Protocol) to keep their clocks in sync. This alarm is an indication that the appliance is not able to contact a valid NTP server or the NTP settings are not configured correctly.
 
 # Steps to Resolve
 
