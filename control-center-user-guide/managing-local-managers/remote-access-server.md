@@ -21,7 +21,7 @@ In the example below, a Cisco router is configured as a Remote Access Server (RA
 * **Phone Number** - Enter the command for dialing (ATDI/ATDT/ATD) and the phone number with no spaces.
 * **Init String** - Enter an optional initialization string with no spaces.
  
-![Uplogix Control Center - SSH Applet Button](http://uplogix.com/support/docs/img/UCC-Modem-Pool.jpg)
+![Uplogix Control Center - SSH Applet Button](http://uplogix.com/support/docs/img/UCC-Modem-Pool-2.jpg)
 
 Once the access server information has been configured (in the Remote Access Server section), a blue Dial button appears in the Control Center. Click the Dial button to connect to the Local Manager via out-of-band, circuit switched phone number.
 
@@ -29,28 +29,7 @@ Once the access server information has been configured (in the Remote Access Ser
   
 The Control Center Dial applet connects to the modem server with the information pre-programmed in the RAS section of the Local Manager Modem configuration.
 
-## Configuring a Cisco Router as an Uplogix Modem Pool
 
 
-To configure a Cisco router as an Uplogix modem pool, connect a modem to the AUX port (or NME-16A multiport card) on the router.
-
-### Configure Reverse SSH for Modem Access
-
-In this configuration, reverse SSH is being configured on a modem used for dial-out lines. To get any of the dial-out modems, you can use any SSH client and start a SSH session as to get to the next available modem from the rotary device.
 
 
-To configure Reverse SSH for modem access, terminal into the Cisco router and enter the following commands: 
-
-```
-1. enable 
-2. configure terminal 
-3. line {line-number} {ending-line-number} 
-4. no exec 
-5. login authentication {listname} 
-6. rotary {group} 
-7. transport input ssh 
-8. exit 
-9. exit 
-10. ssh -l {userid} :rotary {number} {ip-address} 
-
-```
