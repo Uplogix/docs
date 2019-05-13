@@ -14,7 +14,7 @@ Consistent, enterprise-wide point of control for configuring administrative poli
 
 ## Reverse SSH connectivity for Local Managers <span class="badge">5.4</span>
 
-Allows access to Local Managers through reverse SSH tunnels established from the remote location. For more information, see [Reverse SSH Tunnels](http://uplogix.com/docs/control-center-user-guide/managing-the-control-center/reverse-ssh-tunnels)
+Allows access to Local Managers through reverse SSH tunnels established from the remote location. For more information, see [Reverse SSH Tunnels](http://uplogix.com/docs/control-center-user-guide/managing-the-control-center/reverse-ssh-tunnels).
 
 ## Seamless Integration with centralized systems and network management consoles
 
@@ -22,15 +22,15 @@ Serves as a point of integration with other management systems and solutions; al
 
 ## Flexible Reporting
 
-Robust and customizable reporting of event, alarm, and device statistics, network service level measurements and the operational status of your Uplogix local Managers across the enterprise
+Robust and customizable reporting of event, alarm, and device statistics, network service level measurements and the operational status of your Uplogix local Managers across the enterprise.
 
 ## Extensible Automation
 
-Simple interface for users to define custom actions for Uplogix Configuration Management & Recovery – Archives and stores configuration files for all managed devices and can quickly restore good working configuration file to a managed device via the Uplogix Local Manager
+Simple interface for users to define custom actions for Uplogix Configuration Management & Recovery – Archives and stores configuration files for all managed devices and can quickly restore good working configuration file to a managed device via the Uplogix Local Manager.
 
 ## Compliance Reporting
 
-Archives all session logs from Uplogix Local Managers and Control Center for auditing and compliance purposes
+Archives all session logs from Uplogix Local Managers and Control Center for auditing and compliance purposes.
 
 ## Persistent Connectivity 
 
