@@ -52,7 +52,7 @@ Please contact [support@uplogix.com](mailto:support@uplogix.com) if you need ass
 
 The Control Center can generate a wide range of reports on a variety of subjects. These correspond to the reports listing seen on the Group Detail, Local Manager Summary, and Port Detail pages. 
 
-Reports are generated in various formats and emailed to system users or groups 
+Reports are generated in various formats and emailed to system users or groups.
 
 Use the Report Assignments page to schedule any of the existing reports.
  
