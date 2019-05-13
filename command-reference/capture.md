@@ -17,23 +17,37 @@ LMS offerings: All
 # Syntax 
 
 ```
-capture [options]
--size    [integer]
-  	Expressions:
+usage: capture [options]
+
+--- options ---
+
+  -size <arg>   [integer]
+
+    capture -size 1514
+
+
+  Expressions:
       host 10.10.10.10 | net 10.10.10.0/24 | port 80
-     		capture host 10.10.10.90 and port 80 or 443
+
+      capture host 10.10.10.90 and port 80 or 443
 
   Direction source or destination
       src or dst | src | dst | src and dst
-      	capture src 10.1.1.1 and dst port 80 and 443 or 8443
+
+      capture src 10.1.1.1 and dst port 80 and 443 or 8443
+
   Protocol:
       ip | Ip6 | icmp | arp | udp | tcp [portrange] | vlan
-capture ip6 -size 1514 src 2001:470:b851:10:0:0:0:19 and dst port 80
-      		capture tcp dst portrange 20-21
+
+      capture ip6 -size 1514 src 2001:470:b851:10:0:0:0:19 and dst port 80
+      capture tcp dst portrange 20-21
+
   Packet size:
       greater | less
-capture greater 1024
-      		capture less 68
+
+      capture greater 1024
+      capture less 68
+
 ```
 
 # Usage 
