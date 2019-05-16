@@ -15,6 +15,15 @@ By default, no banners are defined.
 
 You can define banners to display any required legal information or operational notes with the **config system banner** editor command. The **login** parameter allows you to edit the banner that is displayed before login. The **welcome** parameter allows you to edit the banner that is displayed after login. Enter the desired text, which may use more than one line. When you are finished, use the **exit** command to leave the editor and return to the main CLI.
 
+> LMS Version **5.5** and above supports replacement tokens for build information:
+
+> - **${version}** - Version number
+- **${build}** - Build label
+- **${bname}** - Build name
+- **${hb}** - Heartbeat version
+
+
+
 ```
 [admin@UplogixLM]# config system banner welcome
 Type 'exit' on a line by itself to exit
@@ -22,7 +31,6 @@ Type 'exit' on a line by itself to exit
 [config system banner welcome]# exit
 ```
 
-<div class='warning' />Do not use non-printing characters in banners. Spaces are considered printing characters.</div>
 
 > Some SSH clients do not support the login banner.
 
