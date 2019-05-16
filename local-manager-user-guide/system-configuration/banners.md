@@ -15,9 +15,9 @@ By default, no banners are defined.
 
 You can define banners to display any required legal information or operational notes with the **config system banner** editor command. The **login** parameter allows you to edit the banner that is displayed before login. The **welcome** parameter allows you to edit the banner that is displayed after login. Enter the desired text, which may use more than one line. When you are finished, use the **exit** command to leave the editor and return to the main CLI.
 
-> LMS Version 5.5 and above supports replacement tokens in the banner for build information:
+> LMS Version **5.5** and above supports replacement tokens in the banner for build information:
 
-- **${version}** - Version number
+>- **${version}** - Version number
 - **${build}** - Build label
 - **${bname}** - Build name
 - **${hb}** - Heartbeat version
