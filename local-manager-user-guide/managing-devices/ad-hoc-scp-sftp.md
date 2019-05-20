@@ -1,5 +1,3 @@
-#Using Ad-Hoc SCP/SFTP service on managed deivces
-
 In this example we will copy an OS file from the Uplogix file directory to a Cisco ASA Firewall.
 
 
