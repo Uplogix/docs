@@ -25,7 +25,7 @@ Enable the interactive SCP server by typing **~g** (the Uplogix escape character
 ```                                                                                                                                                                                                
 Enable SFTP/SCP server? (y/n) [y]:                                
 SFTP/SCP enabled as port2_4:bWZo3N94RBjTJYl                      
-Host 169.254.100.77 or 172.30.20.107                         
+Host 198.51.100.1 or 203.0.113.248                         
 Disable the SFTP/SCP server? (y/n) [n]:                                          
 CISCO-FIREWALL#                                                
 
@@ -35,7 +35,7 @@ Enter the device's SCP (or SFTP) commands on the device. In this example we use 
 ```                                                                                                                                         
 CISCO-FIREWALL# copy scp: flash:
                                     
-Address or name of remote host []? 169.254.100.77
+Address or name of remote host []? 198.51.100.1
                                                  
 Source username []? port2_4
 
@@ -48,7 +48,7 @@ Source filename []? /port2_4/os/candidate/asa991-lfbff-k8.SPA
 
 Destination filename [asa991-lfbff-k8.SPA]?                                                
  
-Accessing scp://port2_4@169.254.100.77//port2_4/os/candidate/asa991-lfbff-k8.SPA...
+Accessing scp://port2_4@198.51.100.1//port2_4/os/candidate/asa991-lfbff-k8.SPA...
 Password:
 ```                                                                                                          
 Enter the password that was randomly generated when the SCP server was started (in this example 'bWZo3N94RBjTJYl').
@@ -83,7 +83,7 @@ CISCO_FIREWALL# copy flash: scp:
  
 Source filename []? asa951-lfbff-k8.spa
 
-Address or name of remote host []? 169.254.100.77
+Address or name of remote host []? 198.51.100.1
   
 Destination username []? port2_4  
   
