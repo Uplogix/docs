@@ -33,6 +33,7 @@ Navigate to the LM's summary page and click the *Edit* button the Properties box
 Use the *Add Property* form to add the property.
 
 **Name: ** _enable_large_file_system
+
 **Value:** true
 
 Once the property is added, allow a heartbeat to complete, and then issue a restart of the LM.
@@ -57,7 +58,8 @@ port2/5: 0 bytes in 0 files.
 port2/6: 0 bytes in 0 files.
 port2/7: 0 bytes in 0 files.
 port2/8: 0 bytes in 0 files.
-  20.0 GB free (100%)```
+  20.0 GB free (100%)
+```
 
 After adding the property and restarting, run the command a second time to verify the additional space.
 
