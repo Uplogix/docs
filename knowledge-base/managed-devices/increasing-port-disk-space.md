@@ -19,7 +19,8 @@ Use the **config system properties** command to add the property.
 [config properties]# exit
 
 [admin@UplogixLM]# show system properties
-_enable_large_file_system true```
+_enable_large_file_system true
+```
 
 You will need to **restart** the LM before the property will take effect.
 
