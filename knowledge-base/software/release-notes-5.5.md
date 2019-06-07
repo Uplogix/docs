@@ -40,6 +40,7 @@ The operating system of the Local Manager has been rebuilt to use the latest emb
 * (**5.5.1**) Fix to handle dropped connection to LM from Terminal application when forwarding ports.
 * (**5.5.1**) Fix for "deny all" permission when used with IPv6.
 * (**5.5.2**) Fix to handle SSH timeout during part of the handshaking process on slow networks when using some clients.
+* (**5.5.3**) Added property to use reserved disk space to accommodate managed devices with very large operating system images.
 
 
 ## Known Issues in This Release
@@ -91,6 +92,7 @@ The Control Center now shows a warning message under the 'Administration' tab if
 * **(5.5.2)** Security patches for the operating system (bind, kernel, ntp, yum).
 * **(5.5.2)** Fix for French keyboard tilde (and other dead keys) being recognized by the Uplogix Terminal application.
 * **(5.5.2)** Fix for timeout issue with Cisco 890 series routers used as modem access server.
+* **(5.5.3)** Fix for ZombieLoad exploit (CVE-2018-12130).
 
 
 ## Known Issues in This Release
@@ -112,3 +114,7 @@ The Control Center now shows a warning message under the 'Administration' tab if
 ## Version 5.5.2
 * Release Date: 3/27/2019
 * Build Number: 34294
+
+## Version 5.5.3
+* Release Date: 5/31/2019
+* Build Number: 34684
