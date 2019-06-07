@@ -22,7 +22,7 @@ Prior to the scheduled upgrade time, we will send a link to a Webex meeting. Thi
 
 Please ensure the UCC has IP connectivity and is reachable from your workstation. It is likely we will need to reboot the sever during the install process, so please plan the downtime accordingly.
 
-**Average downtime of the UCC during a 5.5.2 upgrade is 30-60 minutes.**
+**Average downtime of the UCC during a 5.5.3 upgrade is 30-60 minutes.**
 
 # Verify emsadmin access
 
@@ -38,13 +38,13 @@ If your UCC has access to the internet, we may be able to directly download the 
 
 Our software downloads are located here: [uplogix.com/support/account](http://uplogix.com/support/account/)
 
-The upgrade files are located in the folder of the latest LMS version (currently 5.5.2).
+The upgrade files are located in the folder of the latest LMS version (currently 5.5.3).
 
-For the UCC upgrade, we will need the **embassy.tar.gz** and the **osUpdates6-5.5-uplogix.50.0.cc34294.el5.i386.rpm** files. The **UplogixOS-5.5.2.34294-genericx86.bin** file (or the 'g' version for FIPS customers) will be needed for the Local Manager upgrades.
+For the UCC upgrade, we will need the **embassy.tar.gz** and the **sUpdates6-5.5-uplogix.50.0.cc34684.el5.i386.rpm** files. The **UplogixOS-5.5.3.34684-genericx86.bin** file (or the 'g' version for FIPS customers) will be needed for the Local Manager upgrades.
 
-> **Important**: The latest version of software (v5.5.2) will not run on EOL Local Managers, including the Uplogix 400, 430, and 3200.
+> **Important**: The latest version of software (v5.5.3) will not run on EOL Local Managers, including the Uplogix 400, 430, and 3200.
 
-> Customers on older versions of the UCC (v5.3 or older) will need to have the UCC upgraded in steps to get to v5.5.2, and will require additional upgrade files. Please contact Uplogix Support for information on what files are needed prior to the upgrade.        
+> Customers on older versions of the UCC (v5.3 or older) will need to have the UCC upgraded in steps to get to v5.5.3, and will require additional upgrade files. Please contact Uplogix Support for information on what files are needed prior to the upgrade.        
 
 
 If you have questions regarding our upgrade process, please feel free to [contact us](mailto:support@uplogix.com).
